@@ -10,11 +10,11 @@ A neon coastal dusk theme: a sunset beach city, arcade racing achievements, stun
 
 ## What it does
 
-- **Checklist** of all 55 official trophies with their official names, descriptions and grades, each with a guide in our own words that cites its sources.
+- **Checklist** of all 55 official trophies with their official names, descriptions and grades, each with a guide in our own words that cites its sources by name.
 - **Tracker**: progress saved in the browser, export to a file and import back.
-- **Filters** by kind (story, missable, collectibles, activities, online) and a **spoiler setting** that hides story trophy names and descriptions until earned.
-- **Roadmap** to the platinum and **missable flags**, built from the official descriptions.
-- **Sources panel**: every guide step cites its sources by name.
+- **Filters** by kind (story, missable, collectibles, activities, side, crime, mystery, money) and a **spoiler setting** that hides story trophy names and descriptions until earned.
+- **Roadmap** to the platinum in seven stages (S1 First Light through S7 Open Water) with **missable flags** and a flag summary, built from the official descriptions.
+- **Sources panel**: every one of the 122 guide steps cites its sources by name — no external links anywhere in the app. An audit strip up top shows the counts: 55 official, 1P 2G 6S 46B, 28 hidden, 0 online, 122/122 steps cited.
 
 ## Run it
 

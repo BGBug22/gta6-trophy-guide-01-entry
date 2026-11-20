@@ -17,9 +17,9 @@ const STAGES = {
 };
 const KIND_LABEL = { story: 'Story', activities: 'Activities', side: 'Side', collectibles: 'Collectibles', crime: 'Crime', mystery: 'Mystery', money: 'Money', goal: 'Goal' };
 const CHIPS = [
-  ['all', 'All 55'], ['story', 'Story'], ['missable', 'Missable'], ['collectibles', 'Collectibles'],
+  ['all', 'All'], ['story', 'Story'], ['missable', 'Missable'], ['collectibles', 'Collectibles'],
   ['activities', 'Activities'], ['side', 'Side'], ['crime', 'Crime'], ['mystery', 'Mystery'],
-  ['money', 'Money'], ['online', 'Online'], ['unearned', 'Unearned only'],
+  ['money', 'Money'], ['unearned', 'Unearned only'],
 ];
 
 const doc = await (await fetch('data/trophies.json')).json();
@@ -73,12 +73,20 @@ function renderHeader() {
   $('spoilerToggle').checked = spoiler;
 }
 
+function flagSummary() {
+  const names = (pred) => trophies.filter(pred).map((t) => esc(t.name)).join(', ');
+  return `<h3>Flag summary — trophies to watch</h3>
+    <p><b>Possibly missable:</b> ${names((t) => t.missable)}</p>
+    <p><b>Unconfirmed:</b> ${names((t) => t.unconfirmed)}</p>
+    <p><b>Sources disagree:</b> ${names((t) => t.disagree)}</p>`;
+}
+
 function renderAudit() {
   const a = auditNumbers();
-  const html = `<b>AUDIT</b> 55 official · 1P 2G 6S 46B · 28 hidden · 55/55 guides cite a source · ${a.cited}/${a.steps} steps cited · 7 sources read 20 Nov 2026 · ${a.missable} possibly missable · ${a.watch} watch · ${a.unconfirmed} unconfirmed · ${a.single} single-source · ${a.disagree} disagree`;
+  const html = `<b>AUDIT</b> 55 official · 1P 2G 6S 46B · 28 hidden · 0 online · 55/55 guides cite a source · ${a.cited}/${a.steps} steps cited · 7 sources read 20 Nov 2026 · ${a.missable} possibly missable · ${a.watch} watch · ${a.unconfirmed} unconfirmed · ${a.single} single-source · ${a.disagree} disagree`;
   $('audit').innerHTML = html;
   const box = $('auditBox');
-  if (box) box.innerHTML = html;
+  if (box) box.innerHTML = flagSummary();
 }
 
 function chipCount(kind) {
@@ -131,8 +139,7 @@ function renderList() {
       <label>
         <input type="checkbox" data-id="${t.id}" ${done ? 'checked' : ''}>
         <span>
-          <span class="tName${done ? ' done' : ''} ${hidden ? 'hiddenName' : ''}">${name}</span>
-          <span class="badge ${t.grade}">${t.grade.toUpperCase()}</span><br>
+          <span class="tHead"><span class="tName${done ? ' done' : ''} ${hidden ? 'hiddenName' : ''}">${name}</span><span class="badge ${t.grade}">${t.grade.toUpperCase()}</span></span><br>
           <span class="tDesc">${desc}</span><br>${flagHtml(t)}
         </span>
       </label>
@@ -151,6 +158,15 @@ function renderList() {
       selected = Number(box.dataset.id);
       renderAll();
     }));
+  const list = $('list');
+  const sel = list.querySelector('li.sel');
+  if (sel) {
+    const r = sel.getBoundingClientRect();
+    const lr = list.getBoundingClientRect();
+    if (r.top < lr.top || r.bottom > lr.bottom) {
+      list.scrollTop = r.top - lr.top + list.scrollTop;
+    }
+  }
 }
 
 function renderDetail() {
