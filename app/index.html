@@ -3,102 +3,101 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Neon Coastal Trophy Guide — GTA VI (PS5)</title>
-<link rel="icon" href="data:,">
+<title>Neon Coastal Trophy Guide — GTA VI · PS5</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230c1220'/%3E%3Ccircle cx='16' cy='16' r='8' fill='%23e8b64c'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="hero">
-  <div class="hero-sky" aria-hidden="true"></div>
-  <div class="hero-inner">
-    <div class="hero-titles">
-      <p class="kicker">Neon Coastal · Trophy &amp; Achievement Showcase</p>
-      <h1>Grand Theft Auto VI <span>Trophy Guide</span></h1>
-      <p class="sub">PlayStation 5 · unofficial fan guide · works offline · all 55 official trophies · with notes &amp; progress counters</p>
+<a class="skip-link" href="#trophyList">Skip to the trophy list</a>
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="brand">
+      <p class="brand-kicker">Grand Theft Auto VI &middot; PlayStation 5</p>
+      <h1 class="brand-title">Neon Coastal <span>Trophy Guide</span></h1>
+      <p class="brand-sub">Every trophy, its guide and its sources — plus the road to the Platinum, tracked as you play.</p>
     </div>
-    <div class="hero-progress">
-      <p class="big" id="progress">0/55 earned</p>
-      <p class="grades" id="gradeCounts">P 0/1 · G 0/2 · S 0/6 · B 0/46</p>
-      <div class="bar"><div class="fill" id="progressFill" style="width:0%"></div></div>
-      <div class="hero-actions">
-        <button id="exportBtn" type="button">Export progress</button>
-        <label class="importBtn">Import progress <input id="importFile" type="file" accept="application/json"></label>
-        <button id="resetBtn" type="button">Reset</button>
+    <div class="masthead-side">
+      <div class="platinum-meter" id="platinumMeter" aria-label="Platinum progress">
+        <div class="platinum-meter-top"><span id="platinumCount">0 / 55</span><span id="platinumPct">0%</span></div>
+        <div class="platinum-bar"><div class="platinum-fill" id="platinumFill" style="width:0%"></div></div>
+        <p class="platinum-caption">Road to <strong>Vice Got a Price!</strong></p>
       </div>
-      <div class="spoilerBox">
-        <label class="spoiler"><input id="spoilerToggle" type="checkbox"> Hide story spoilers until earned</label>
-        <p class="saved">Progress, counts and notes are saved in this browser.</p>
+      <div class="masthead-controls">
+        <label class="spoiler-toggle" title="Hide story trophy names and descriptions until you earn them">
+          <input type="checkbox" id="spoilerToggle">
+          <span class="spoiler-box" aria-hidden="true"></span>
+          Hide story spoilers until earned
+        </label>
+        <div class="save-buttons">
+          <button type="button" class="btn btn-gold" id="exportBtn">Export save</button>
+          <button type="button" class="btn" id="importBtn">Import save</button>
+          <input type="file" id="importFile" accept="application/json,.json" hidden>
+        </div>
       </div>
     </div>
   </div>
+  <div class="sunset-strip" aria-hidden="true"></div>
 </header>
 
-<div class="audit" id="audit">Loading audit…</div>
+<main class="page">
+  <section class="audit-pills" id="auditPills" aria-label="Audit summary"></section>
 
-<nav class="tabs" aria-label="Guide sections">
-  <button type="button" data-tab="checklist" class="active">Checklist</button>
-  <button type="button" data-tab="roadmap">Roadmap</button>
-  <button type="button" data-tab="sources">Sources</button>
-</nav>
+  <nav class="tabs" aria-label="Guide sections">
+    <button type="button" class="tab active" data-tab="checklist" id="tabChecklist">Checklist</button>
+    <button type="button" class="tab" data-tab="roadmap" id="tabRoadmap">Roadmap</button>
+    <button type="button" class="tab" data-tab="sources" id="tabSources">Sources &amp; Audit</button>
+  </nav>
 
-<main>
-  <section id="tab-checklist" class="tabpage">
-    <div class="controls">
-      <div class="chips" id="chips"></div>
-      <label class="gradeSel">Grade
-        <select id="gradeSelect">
-          <option value="all">All grades</option>
-          <option value="platinum">Platinum</option>
-          <option value="gold">Gold</option>
-          <option value="silver">Silver</option>
-          <option value="bronze">Bronze</option>
-        </select>
-      </label>
-      <label class="search">Search <input id="searchInput" type="search" placeholder="Type a trophy name…"></label>
-    </div>
-    <p class="shown" id="shownCount"></p>
-    <div class="panels">
-      <aside class="panel list" aria-label="Trophy checklist">
-        <h2>Checklist</h2>
-        <ol id="list"></ol>
+  <section class="view view-checklist" id="viewChecklist">
+    <div class="checklist-grid">
+      <aside class="trophy-column" aria-label="Trophy list">
+        <div class="list-tools">
+          <input type="search" id="searchBox" placeholder="Search a trophy name…" aria-label="Search trophies" autocomplete="off">
+          <div class="kind-chips" id="kindChips" role="group" aria-label="Filter by kind"></div>
+          <label class="grade-filter">Grade
+            <select id="gradeSelect" aria-label="Filter by grade">
+              <option value="">All grades</option>
+              <option value="platinum">Platinum</option>
+              <option value="gold">Gold</option>
+              <option value="silver">Silver</option>
+              <option value="bronze">Bronze</option>
+            </select>
+          </label>
+          <p class="list-count" id="listCount"></p>
+        </div>
+        <ul class="trophy-list" id="trophyList"></ul>
       </aside>
-      <section class="panel detail" id="detail" aria-label="Selected trophy guide"></section>
-      <aside class="panel sources" aria-label="Sources">
-        <h2>Sources</h2>
-        <p class="srcNote">Official list: <a class="srcLink" href="https://www.playstation.com/en-us/games/grand-theft-auto-vi/" target="_blank" rel="noopener noreferrer">PlayStation — GTA VI</a></p>
-        <p class="srcNote">Read 20 Nov 2026. Links open in a new tab — the app itself fetches nothing.</p>
-        <ol id="sourcesList"></ol>
-        <p class="srcNote">Every guide step above cites one or more of these by number, like [1][2].</p>
-      </aside>
+
+      <article class="detail-column" id="detailPanel" aria-label="Trophy detail" aria-live="polite"></article>
+
+      <aside class="sources-column" id="sourcesPanel" aria-label="Sources for this trophy"></aside>
     </div>
   </section>
 
-  <section id="tab-roadmap" class="tabpage" hidden>
-    <div class="goal" id="goalBar"></div>
-    <div class="stages" id="stages"></div>
-    <p class="roadNote">Roadmap order is a suggestion built from the official descriptions: story chapters first, then stranger strands and activities, then free-roam cleanup. The platinum lands last.</p>
+  <section class="view view-roadmap" id="viewRoadmap" hidden>
+    <div class="roadmap-intro">
+      <h2>The road to the Platinum</h2>
+      <p>Seven stages, in order, no skipping. About 200 hours from the first mission to the last pop — roughly 60–80 for the story, about 100 for the 100% checklist, and about 10 for the strangers and the cleanup. One playthrough is enough, and there are no online trophies.</p>
+    </div>
+    <ol class="stage-list" id="stageList"></ol>
   </section>
 
-  <section id="tab-sources" class="tabpage" hidden>
-    <h2>Sources &amp; audit</h2>
-    <p>Every guide in this app is written in our own words. Facts come from the official PlayStation trophy list and the guides named below; each step cites its sources by number. A source is cited, never copied. Links open in a new tab — the app itself fetches nothing.</p>
-    <p>Official trophy list: <a class="srcLink" href="https://www.playstation.com/en-us/games/grand-theft-auto-vi/" target="_blank" rel="noopener noreferrer">PlayStation — Grand Theft Auto VI</a></p>
-    <ol id="sourcesFull" class="srcFull"></ol>
-    <div class="auditBox" id="auditBox"></div>
-    <h3>How to read the flags</h3>
-    <ul class="flags">
-      <li><b>Possibly missable</b> — a step that may only be doable at one point in the story; do it when the roadmap says so.</li>
-      <li><b>Watch</b> — a one-chance moment in free roam; easy to walk past, so attempt it when you are there.</li>
-      <li><b>Unconfirmed</b> — the official description gives no clear trigger and only one source describes it; treat it as a lead, not a fact.</li>
-      <li><b>Sources disagree</b> — guides do not agree; both versions are shown so you can judge for yourself.</li>
-      <li><b>Single-source</b> — only one of the seven sources covers this trophy.</li>
-    </ul>
+  <section class="view view-sources" id="viewSources" hidden>
+    <div class="sources-intro">
+      <h2>Sources &amp; audit</h2>
+      <p>Every guide in this app is written in fresh words for this entry. The facts it rests on are cited below — a source is named or linked beside each trophy, never copied. Links open only when you follow them; the app itself makes no network request.</p>
+    </div>
+    <div class="sources-layout">
+      <div class="sources-table-wrap" id="sourcesTable"></div>
+      <div class="flag-box" id="flagBox"></div>
+    </div>
   </section>
 </main>
 
-<footer>
-  <p>Guides in our own words. Sources are cited by name and linked where their pages were verified; links open in a new tab and the app fetches nothing itself. No Rockstar logo or official artwork. Trophy names, descriptions and grades are as PlayStation publishes them.</p>
+<footer class="page-foot">
+  <p>Neon Coastal Trophy Guide — an offline guide for Grand Theft Auto VI on PlayStation 5. Trophy names and descriptions are shown as PlayStation publishes them; everything else is written fresh for this entry. Progress, counters and notes live only in your browser (localStorage) and in the save file you export. Sources read 20 November 2026.</p>
 </footer>
+
 <script type="module" src="app.js"></script>
 </body>
 </html>
