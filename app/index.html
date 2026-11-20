@@ -3,23 +3,97 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GTA VI trophy checklist</title>
+<title>Neon Coastal Trophy Guide — GTA VI (PS5)</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <h1>GTA VI trophy checklist</h1>
-  <p id="progress">0 of 55 earned</p>
+<header class="hero">
+  <div class="hero-sky" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <div class="hero-titles">
+      <p class="kicker">Neon Coastal · Trophy &amp; Achievement Showcase</p>
+      <h1>Grand Theft Auto VI <span>Trophy Guide</span></h1>
+      <p class="sub">PlayStation 5 · unofficial fan guide · works offline · all 55 official trophies</p>
+    </div>
+    <div class="hero-progress">
+      <p class="big" id="progress">0/55 earned</p>
+      <p class="grades" id="gradeCounts">P 0/1 · G 0/2 · S 0/6 · B 0/46</p>
+      <div class="bar"><div class="fill" id="progressFill" style="width:0%"></div></div>
+      <div class="hero-actions">
+        <button id="exportBtn" type="button">Export progress</button>
+        <label class="importBtn">Import progress <input id="importFile" type="file" accept="application/json"></label>
+        <button id="resetBtn" type="button">Reset</button>
+      </div>
+      <label class="spoiler"><input id="spoilerToggle" type="checkbox"> Hide story spoilers until earned</label>
+      <p class="saved">Progress is saved in this browser.</p>
+    </div>
+  </div>
 </header>
-<div class="controls">
-  <label>Grade <select id="grade"><option value="all">All</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select></label>
-  <button id="export" type="button">Export progress</button>
-  <label class="import">Import progress <input id="import" type="file" accept="application/json"></label>
-</div>
-<table>
-  <thead><tr><th>Earned</th><th>Trophy</th><th>Grade</th><th>How to get it</th></tr></thead>
-  <tbody id="rows"></tbody>
-</table>
+
+<div class="audit" id="audit">Loading audit…</div>
+
+<nav class="tabs" aria-label="Guide sections">
+  <button type="button" data-tab="checklist" class="active">Checklist</button>
+  <button type="button" data-tab="roadmap">Roadmap</button>
+  <button type="button" data-tab="sources">Sources</button>
+</nav>
+
+<main>
+  <section id="tab-checklist" class="tabpage">
+    <div class="controls">
+      <div class="chips" id="chips"></div>
+      <label class="gradeSel">Grade
+        <select id="gradeSelect">
+          <option value="all">All grades</option>
+          <option value="platinum">Platinum</option>
+          <option value="gold">Gold</option>
+          <option value="silver">Silver</option>
+          <option value="bronze">Bronze</option>
+        </select>
+      </label>
+      <label class="search">Search <input id="searchInput" type="search" placeholder="Type a trophy name…"></label>
+    </div>
+    <p class="shown" id="shownCount"></p>
+    <div class="panels">
+      <aside class="panel list" aria-label="Trophy checklist">
+        <h2>Checklist</h2>
+        <ol id="list"></ol>
+      </aside>
+      <section class="panel detail" id="detail" aria-label="Selected trophy guide"></section>
+      <aside class="panel sources" aria-label="Sources">
+        <h2>Sources</h2>
+        <p class="srcNote">Read 20 Nov 2026. Cited by name only — no external links.</p>
+        <ol id="sourcesList"></ol>
+        <p class="srcNote">Every guide step above cites one or more of these by number, like [1][2].</p>
+      </aside>
+    </div>
+  </section>
+
+  <section id="tab-roadmap" class="tabpage" hidden>
+    <div class="goal" id="goalBar"></div>
+    <div class="stages" id="stages"></div>
+    <p class="roadNote">Roadmap order is a suggestion built from the official descriptions: story chapters first, then stranger strands and activities, then free-roam cleanup. The platinum lands last.</p>
+  </section>
+
+  <section id="tab-sources" class="tabpage" hidden>
+    <h2>Sources &amp; audit</h2>
+    <p>Every guide in this app is written in our own words. Facts come from the official PlayStation trophy list and the guides named below; each step cites its sources by number. A source is cited, never copied.</p>
+    <ol id="sourcesFull" class="srcFull"></ol>
+    <div class="auditBox" id="auditBox"></div>
+    <h3>How to read the flags</h3>
+    <ul class="flags">
+      <li><b>Possibly missable</b> — a step that may only be doable at one point in the story; do it when the roadmap says so.</li>
+      <li><b>Watch</b> — a one-chance moment in free roam; easy to walk past, so attempt it when you are there.</li>
+      <li><b>Unconfirmed</b> — the official description gives no clear trigger and only one source describes it; treat it as a lead, not a fact.</li>
+      <li><b>Sources disagree</b> — guides do not agree; both versions are shown so you can judge for yourself.</li>
+      <li><b>Single-source</b> — only one of the seven sources covers this trophy.</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>Guides in our own words. Sources cited by name only — no external links. No Rockstar logo or official artwork. Trophy names, descriptions and grades are as PlayStation publishes them.</p>
+</footer>
 <script type="module" src="app.js"></script>
 </body>
 </html>
