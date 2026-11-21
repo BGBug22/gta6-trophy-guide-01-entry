@@ -3,99 +3,86 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Neon Coastal Trophy Guide — GTA VI · PS5</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230c1220'/%3E%3Ccircle cx='16' cy='16' r='8' fill='%23e8b64c'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%23e8b64c'/%3E%3C/svg%3E">
+<title>Neon Coastal — GTA VI Trophy Guide &amp; Tracker</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<a class="skip-link" href="#trophyList">Skip to the trophy list</a>
 <header class="masthead">
   <div class="masthead-inner">
-    <div class="brand">
-      <p class="brand-kicker">Grand Theft Auto VI &middot; PlayStation 5</p>
-      <h1 class="brand-title">Neon Coastal <span>Trophy Guide</span></h1>
-      <p class="brand-sub">Every trophy, its guide and its sources — plus the road to the Platinum, tracked as you play.</p>
+    <p class="kicker">Neon Coastal &middot; Grand Theft Auto VI &middot; PlayStation 5</p>
+    <h1>GTA VI Trophy Guide &amp; Tracker</h1>
+    <p class="lede">Every one of the 55 official trophies, with a cited guide, a roadmap to the platinum, and a tracker that saves in your browser. Offline — it loads nothing from the network.</p>
+    <div class="progress-wrap">
+      <div class="progress-bar"><div id="progressFill" class="progress-fill" style="width:0%"></div></div>
+      <p id="progressText" class="progress-text">0 of 55 earned</p>
     </div>
-    <div class="masthead-side">
-      <div class="platinum-meter" id="platinumMeter" aria-label="Platinum progress">
-        <div class="platinum-meter-top"><span id="platinumCount">0 / 55</span><span id="platinumPct">0%</span></div>
-        <div class="platinum-bar"><div class="platinum-fill" id="platinumFill" style="width:0%"></div></div>
-        <p class="platinum-caption">Road to <strong>Vice Got a Price!</strong></p>
-      </div>
-      <div class="masthead-controls">
-        <label class="spoiler-toggle" title="Hide story trophy names and descriptions until you earn them">
-          <input type="checkbox" id="spoilerToggle">
-          <span class="spoiler-box" aria-hidden="true"></span>
-          Hide story spoilers until earned
-        </label>
-        <div class="save-buttons">
-          <button type="button" class="btn btn-gold" id="exportBtn">Export save</button>
-          <button type="button" class="btn" id="importBtn">Import save</button>
-          <input type="file" id="importFile" accept="application/json,.json" hidden>
-        </div>
-      </div>
-    </div>
+    <div class="pills" id="auditPills"></div>
   </div>
-  <div class="sunset-strip" aria-hidden="true"></div>
 </header>
 
-<main class="page">
-  <section class="audit-pills" id="auditPills" aria-label="Audit summary"></section>
+<nav class="tabs" role="tablist" aria-label="Guide sections">
+  <button type="button" class="tab active" data-tab="checklist" role="tab" aria-selected="true">Checklist</button>
+  <button type="button" class="tab" data-tab="roadmap" role="tab" aria-selected="false">Roadmap</button>
+  <button type="button" class="tab" data-tab="sources" role="tab" aria-selected="false">Sources &amp; Audit</button>
+</nav>
 
-  <nav class="tabs" aria-label="Guide sections">
-    <button type="button" class="tab active" data-tab="checklist" id="tabChecklist">Checklist</button>
-    <button type="button" class="tab" data-tab="roadmap" id="tabRoadmap">Roadmap</button>
-    <button type="button" class="tab" data-tab="sources" id="tabSources">Sources &amp; Audit</button>
-  </nav>
-
-  <section class="view view-checklist" id="viewChecklist">
-    <div class="checklist-grid">
-      <aside class="trophy-column" aria-label="Trophy list">
-        <div class="list-tools">
-          <input type="search" id="searchBox" placeholder="Search a trophy name…" aria-label="Search trophies" autocomplete="off">
-          <div class="kind-chips" id="kindChips" role="group" aria-label="Filter by kind"></div>
-          <label class="grade-filter">Grade
-            <select id="gradeSelect" aria-label="Filter by grade">
-              <option value="">All grades</option>
-              <option value="platinum">Platinum</option>
-              <option value="gold">Gold</option>
-              <option value="silver">Silver</option>
-              <option value="bronze">Bronze</option>
-            </select>
-          </label>
-          <p class="list-count" id="listCount"></p>
-        </div>
-        <ul class="trophy-list" id="trophyList"></ul>
-      </aside>
-
-      <article class="detail-column" id="detailPanel" aria-label="Trophy detail" aria-live="polite"></article>
-
-      <aside class="sources-column" id="sourcesPanel" aria-label="Sources for this trophy"></aside>
+<main>
+  <section id="tab-checklist" class="panel active" role="tabpanel" aria-label="Checklist">
+    <div class="toolbar">
+      <label class="search-label">Search <input id="search" type="search" placeholder="Trophy name or keyword…" autocomplete="off"></label>
+      <label class="spoiler-label"><input id="spoiler" type="checkbox"> Hide story spoilers</label>
+      <div class="io">
+        <button id="exportBtn" type="button">Export progress</button>
+        <label class="import-label">Import progress <input id="importFile" type="file" accept="application/json"></label>
+      </div>
+    </div>
+    <div class="filters" id="filters" role="group" aria-label="Filter by kind"></div>
+    <p id="filterNote" class="filter-note"></p>
+    <div class="columns">
+      <div class="col col-list">
+        <h2>Trophies</h2>
+        <ul id="trophyList" class="trophy-list"></ul>
+        <p id="emptyList" class="empty" hidden>No trophies match this filter.</p>
+      </div>
+      <div class="col col-detail">
+        <h2>Guide</h2>
+        <div id="detail" class="detail"><p class="muted">Select a trophy on the left to see its guide, steps, counter and notes.</p></div>
+      </div>
+      <div class="col col-sources">
+        <h2>Sources</h2>
+        <div id="contextSources" class="context-sources"><p class="muted">Sources for the selected trophy appear here.</p></div>
+      </div>
     </div>
   </section>
 
-  <section class="view view-roadmap" id="viewRoadmap" hidden>
-    <div class="roadmap-intro">
-      <h2>The road to the Platinum</h2>
-      <p>Seven stages, in order, no skipping. About 200 hours from the first mission to the last pop — roughly 60–80 for the story, about 100 for the 100% checklist, and about 10 for the strangers and the cleanup. One playthrough is enough, and there are no online trophies.</p>
-    </div>
-    <ol class="stage-list" id="stageList"></ol>
+  <section id="tab-roadmap" class="panel" role="tabpanel" aria-label="Roadmap" hidden>
+    <h2>Roadmap to the platinum</h2>
+    <p class="muted">Seven stages, in order. One playthrough is enough; there is no mission replay, so keep a manual save at the start and end of every chapter. Cheats disable trophies and saving — keep them off the platinum save.</p>
+    <ol id="roadmapList" class="roadmap"></ol>
   </section>
 
-  <section class="view view-sources" id="viewSources" hidden>
-    <div class="sources-intro">
-      <h2>Sources &amp; audit</h2>
-      <p>Every guide in this app is written in fresh words for this entry. The facts it rests on are cited below — a source is named or linked beside each trophy, never copied. Links open only when you follow them; the app itself makes no network request.</p>
-    </div>
-    <div class="sources-layout">
-      <div class="sources-table-wrap" id="sourcesTable"></div>
-      <div class="flag-box" id="flagBox"></div>
+  <section id="tab-sources" class="panel" role="tabpanel" aria-label="Sources and audit" hidden>
+    <h2>Sources &amp; Audit</h2>
+    <div class="audit-grid">
+      <div class="audit-col">
+        <h3>Sources</h3>
+        <p class="muted">Every guide cites its sources by name. A link opens only when you follow it; the app itself fetches nothing. Pages that returned HTTP 403 when checked are named as text only, with no link.</p>
+        <ul id="sourceList" class="source-list"></ul>
+      </div>
+      <div class="audit-col">
+        <h3>Flag summary</h3>
+        <dl id="flagSummary" class="flag-summary"></dl>
+        <h3>Audit</h3>
+        <ul id="auditList" class="audit-list"></ul>
+      </div>
     </div>
   </section>
 </main>
 
-<footer class="page-foot">
-  <p>Neon Coastal Trophy Guide — an offline guide for Grand Theft Auto VI on PlayStation 5. Trophy names and descriptions are shown as PlayStation publishes them; everything else is written fresh for this entry. Progress, counters and notes live only in your browser (localStorage) and in the save file you export. Sources read 20 November 2026.</p>
+<footer class="foot">
+  <p>Neon Coastal is an unofficial fan guide. Grand Theft Auto, GTA and Rockstar Games are trademarks of their owners; no logo, artwork or screenshot of the game is used here. Trophy names and descriptions are shown as PlayStation publishes them; every guide is written for this entry and cites its sources.</p>
+  <p id="footCount" class="muted"></p>
 </footer>
 
 <script type="module" src="app.js"></script>
