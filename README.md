@@ -4,27 +4,43 @@
 [![rank](https://make.fun/badge/gta6-trophy-guide-01/BGBug22/gta6-trophy-guide-01-entry/rank.svg)](https://make.fun/c/gta6-trophy-guide-01)
 [![reward](https://make.fun/badge/gta6-trophy-guide-01/BGBug22/gta6-trophy-guide-01-entry/reward.svg)](https://make.fun/c/gta6-trophy-guide-01)
 
-An offline web guide and tracker for all 55 PlayStation 5 trophies of Grand Theft Auto VI — every official name, description and grade as PlayStation publishes them, a cited guide for each one, a 7-stage roadmap to the platinum, and a checklist that saves in the browser.
+An offline guide and tracker for all **55 official PlayStation 5 trophies** of Grand Theft Auto VI — 1 platinum, 2 gold, 6 silver and 46 bronze, 28 of them hidden — built for the [gta6-trophy-guide-01 bounty](https://make.fun/c/gta6-trophy-guide-01) on make.fun.
 
 ## What it is
 
-- **55 trophies, 1 platinum / 2 gold / 6 silver / 46 bronze, 28 hidden.** Names and descriptions are shown exactly as PlayStation publishes them (including "T**s Ass Drug Money", masked with asterisks by the game itself).
-- **A cited guide for every trophy.** Each guide is written for this entry in its own words and names its sources — PowerPyx, Exophase, PSNProfiles, PlanetGTA6, Insider Gaming, GameMapa, EGamers, CryptoGames, GTASpotter and KeenGamer. Pages verified HTTP 200 are linked with a LIVE LINK badge; pages that returned HTTP 403 are named as text only.
-- **A tracker that saves.** Checklist with localStorage, Export/Import JSON, 36 sub-progress counters (with auto-earn when a counter fills), My Notes per trophy, and a spoiler shield that hides hidden trophies until earned.
-- **Filters and search.** By kind — Story, Missable, Collectibles, Activities, Crime, Odd ones, Platinum, Online — plus free-text search. There are no online trophies: all 55 are offline single-player.
-- **Roadmap S1–S7.** Story first, then the one possibly missable trophy (Positive Mental Attitude — meditate at Jason's house in Chapter 1), character finales, activities, collectibles, crime and money, and finally 100% completion, the odd one-offs, and the platinum.
-- **Offline by design.** Static files under `app/` with no build step. The app loads only its own files and makes no network request at run time.
+A static web app (`app/`, no build step) that runs entirely offline:
 
-## The one missable trophy
+- **Checklist** of all 55 trophies with their official names, descriptions and grades, plus a cited guide for every one — written in our own words, with steps and named sources.
+- **Tracker** — progress saves in localStorage and exports to / imports from a JSON file; 20 sub-progress counters with −/+ buttons and auto-earn when a counter fills; My Notes on every trophy (✎).
+- **Spoiler shield** — hides the names and descriptions of the 28 hidden story trophies until they are earned.
+- **Filters & search** — story, missable, collectibles, activities, crime, odd ones, platinum, online (there are none: all 55 are offline single-player).
+- **Roadmap S1–S7** — seven stages in order to the platinum, with a chip for every trophy.
+- **Sources & Audit** — 10 sources, 7 verified HTTP 200 (linked, LIVE LINK badge) and 3 HTTP 403 (text only); a flag summary and an audit list.
 
-**Positive Mental Attitude** (meditate at every spot across Leonida) is the only trophy the guides flag as possibly missable: the first meditation, on the balcony at Jason's house in Chapter 1, is gone once that chapter ends. Do it before leaving Chapter 1. PowerPyx and GTABase both flag it; everything else stays available in free-roam after the story.
+The one trophy that can be missed — **Positive Mental Attitude** (meditate at every spot; the first meditation, at Jason's house in Chapter 1, is gone once the chapter ends) — is flagged in the list, in its guide, and in stage S2 of the roadmap.
+
+## Design
+
+Dark editorial Vice twilight: deep violet night, serif headlines in white and gold, five clean audit pills. No Rockstar logo, no official artwork, no game screenshots — the look is our own.
 
 ## Run it
 
-Serve `app/` with any static file server and open `app/index.html` in desktop Chrome, or run `node serve.ts` and open http://localhost:8080. It works with the network off.
+Serve `app/` with any static server and open `index.html`:
 
-To hand the entry in: `mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts`, then `makefun check` and `makefun submit` per the kit's RULES.txt.
+```sh
+cd app && python3 -m http.server 8123
+```
 
-## Bounty
+Then open http://localhost:8123. It works with the network off.
 
-Built for the [gta6-trophy-guide-01](https://make.fun/c/gta6-trophy-guide-01) bounty on make.fun — $250, top 50. Neon Coastal is an unofficial fan guide; Grand Theft Auto, GTA and Rockstar Games are trademarks of their owners, and no logo, artwork or screenshot of the game is used here.
+## Hand it in
+
+`main.ts` (Node 22, standard library only) copies `app/` and `screenshots/` to the output directory and writes `dossier.json` with the vendored make.fun library:
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+```
+
+## Sources
+
+PowerPyx, PlanetGTA6, Insider Gaming, GameMapa, EGamers, Push Square, CryptoGames (linked), Exophase, PSNProfiles, KeenGamer (text only — they return HTTP 403 to automated checks). Trophy names and descriptions are shown as PlayStation publishes them; every guide is written in our own words.

@@ -9,18 +9,16 @@
    "description": "Congratulations! You're a Leonida Legend.",
    "grade": "platinum",
    "hidden": false,
-   "kind": "platinum",
    "missable": false,
+   "kind": "platinum",
    "stage": "S7",
-   "target": null,
    "guide": "The platinum pops the moment the other 54 are done — there is no extra task behind it. It is single-player only, with no online trophy and no DLC requirement, so one playthrough is enough. PowerPyx rates the whole set 4/10 and about 200 hours; the long pole is 100% completion, not the story.",
    "steps": [
     "Finish the story (S1) and the character finales (S3).",
     "Clear the 100% Completion checklist (S7) — it is the last big gate.",
-    "Sweep the remaining collectibles, activities and crime trophies (S4–S6).",
-    "The platinum unlocks automatically once the other 54 show as earned."
+    "Mop up any stray trophies in S4–S6 before the platinum pops."
    ],
-   "sources": ["PowerPyx", "PlanetGTA6"]
+   "sources": ["powerpyx", "planetgta6"]
   },
   {
    "id": 2,
@@ -28,17 +26,15 @@
    "description": "Complete Gone Fishing.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "story",
    "missable": false,
+   "kind": "story",
    "stage": "S1",
-   "target": null,
-   "guide": "The opening mission, Gone Fishing, is the first thing the game asks of you, and this trophy is automatic the moment it ends. There is nothing to prepare and nothing to miss — just play the intro. PowerPyx lists it as an automatic story trophy that cannot be missed.",
+   "guide": "Automatic story trophy, cannot be missed. It unlocks after the first main mission in Chapter 1, Gone Fishing, which opens the game. Just play the opening; no side work is needed. PowerPyx lists it as the first story beat of the roadmap.",
    "steps": [
-    "Start a new game and play the opening mission, Gone Fishing.",
-    "Follow the on-screen prompts through the mission to its end.",
-    "The trophy pops when the mission completes."
+    "Play the opening mission Gone Fishing in Chapter 1.",
+    "The trophy pops when the mission ends."
    ],
-   "sources": ["PowerPyx", "KeenGamer"]
+   "sources": ["powerpyx", "pushsquare"]
   },
   {
    "id": 3,
@@ -46,17 +42,16 @@
    "description": "Complete Chapter 1.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "story",
    "missable": false,
+   "kind": "story",
    "stage": "S1",
-   "target": null,
-   "guide": "Chapter 1 ends on its own as you work through its missions — this is a pure progress trophy. Before you leave Chapter 1, do the one missable thing in the whole game: the balcony meditation for Positive Mental Attitude (see that trophy). PowerPyx warns that the first meditation, at Jason's house, is gone once Chapter 1 ends.",
+   "guide": "Automatic story trophy for finishing Chapter 1. It unlocks after the first main mission of Chapter 2. Do the Chapter 1 meditation for Positive Mental Attitude before this chapter ends — it is the only thing in the game that can be missed. PowerPyx and GameMapa both stress keeping a manual save at each chapter boundary because there is no mission replay.",
    "steps": [
-    "Play through every Chapter 1 mission in order.",
-    "BEFORE the last Chapter 1 mission: do the balcony meditation with Lucia at Jason's house (Positive Mental Attitude).",
-    "Finish the final Chapter 1 mission to close the chapter."
+    "Before finishing Chapter 1, do the balcony meditation at Jason's house (see Positive Mental Attitude).",
+    "Keep a manual save at the start and end of the chapter.",
+    "Finish the last Chapter 1 mission; the trophy pops as Chapter 2 opens."
    ],
-   "sources": ["PowerPyx", "KeenGamer"]
+   "sources": ["powerpyx", "gamemapa"]
   },
   {
    "id": 4,
@@ -64,17 +59,16 @@
    "description": "Complete Chapter 2.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "story",
    "missable": false,
+   "kind": "story",
    "stage": "S1",
-   "target": null,
-   "guide": "Chapter 2 closes automatically when its last mission ends. The name is masked with asterisks on PlayStation itself — that is how the game publishes it. Keep a manual save at the start and the end of the chapter, since there is no mission replay; PowerPyx recommends a save at each chapter boundary.",
+   "guide": "Automatic story trophy for finishing Chapter 2. It unlocks after the first main mission of Chapter 3. By now both Lucia and Jason are playable, so the remaining meditation spots for Positive Mental Attitude can be started. Keep a manual save at the chapter boundary, since missions cannot be replayed.",
    "steps": [
-    "Make a manual save at the start of Chapter 2.",
-    "Play through the Chapter 2 missions in order.",
-    "Make a manual save at the end of Chapter 2, then move on."
+    "Play through Chapter 2 to its end.",
+    "Once both characters are playable, start the remaining meditation spots.",
+    "The trophy pops as Chapter 3 opens."
    ],
-   "sources": ["PowerPyx", "PlanetGTA6"]
+   "sources": ["powerpyx", "keengamer"]
   },
   {
    "id": 5,
@@ -82,17 +76,16 @@
    "description": "Complete Chapter 3.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "story",
    "missable": false,
+   "kind": "story",
    "stage": "S1",
-   "target": null,
-   "guide": "Chapter 3 ends the same way as the others — finish its missions and the trophy is yours. By now the map is wide open, so it is a good moment to pick up side activities (races, stunts, WAiNK scans) between missions, since everything you do already counts toward the 100% checklist. PowerPyx notes that progress made during the story counts toward the checklist even before it becomes visible.",
+   "guide": "Automatic story trophy for finishing Chapter 3. It unlocks after the first main mission of Chapter 4. PowerPyx notes the story is divided into 5 chapters and takes around 60–80 hours; keep a manual save at the start and end of every chapter because there is no mission replay.",
    "steps": [
-    "Make a manual save at the start of Chapter 3.",
-    "Play through the Chapter 3 missions in order.",
-    "Between missions, try side activities — they already count toward 100%."
+    "Play through Chapter 3 to its end.",
+    "Keep a manual save at the chapter boundary.",
+    "The trophy pops as Chapter 4 opens."
    ],
-   "sources": ["PowerPyx", "GameMapa"]
+   "sources": ["powerpyx", "planetgta6"]
   },
   {
    "id": 6,
@@ -100,17 +93,16 @@
    "description": "Complete Chapter 4.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "story",
    "missable": false,
+   "kind": "story",
    "stage": "S1",
-   "target": null,
-   "guide": "Chapter 4 is the last full chapter before the finale, and it closes automatically on its final mission. Before the ending, make sure the character-finale strands (Andy, Kenton, Billy, Randy, Tyrone) are finished or at least started — they stay available in free-roam afterwards, but it is cleaner to clear them now. PowerPyx confirms every quest giver tied to a trophy comes back after the story.",
+   "guide": "Automatic story trophy for finishing Chapter 4. It unlocks after the final mission begins. After the story ends, free-roam continues and everything needed for the 100% checklist is still accessible, so nothing in Chapter 4 itself can lock you out of the platinum.",
    "steps": [
-    "Make a manual save at the start of Chapter 4.",
-    "Play through the Chapter 4 missions in order.",
-    "Clear any open character-finale strands before the final mission."
+    "Play through Chapter 4 to its end.",
+    "Keep a manual save before the final mission.",
+    "The trophy pops as the finale opens."
    ],
-   "sources": ["PowerPyx", "GTASpotter"]
+   "sources": ["powerpyx", "gamemapa"]
   },
   {
    "id": 7,
@@ -118,17 +110,16 @@
    "description": "Complete the final mission.",
    "grade": "gold",
    "hidden": true,
-   "kind": "story",
    "missable": false,
+   "kind": "story",
    "stage": "S1",
-   "target": null,
-   "guide": "The final story mission is the only gold trophy tied to the plot, and it unlocks the moment the mission ends. After it, the game returns you to free-roam and the 100% Completion checklist appears under Progress, then Stats. There is no mission replay, so keep a manual save at the end of the final mission — PowerPyx suggests a save at the start and end of every chapter.",
+   "guide": "The story finale, and the only gold trophy that is hidden. It pops when the final mission ends. After it, free-roam continues, the 100% Completion entry appears under Progress > Stats, and every cleanup trophy is still reachable. PowerPyx puts the story at 60–80 hours of the roughly 200-hour platinum.",
    "steps": [
-    "Make a manual save before the final mission.",
-    "Play the final mission to its end.",
-    "After the credits, open Progress, then Stats, to see the 100% Completion checklist."
+    "Finish the final mission.",
+    "After the credits, open Progress > Stats to see the 100% Completion checklist.",
+    "Continue in free-roam for S4–S7 cleanup."
    ],
-   "sources": ["PowerPyx", "GameMapa"]
+   "sources": ["powerpyx", "keengamer"]
   },
   {
    "id": 8,
@@ -136,17 +127,15 @@
    "description": "Complete Breakfast Run.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "story",
    "missable": false,
+   "kind": "story",
    "stage": "S1",
-   "target": null,
-   "guide": "Breakfast Run is a story mission, so this trophy is automatic when the mission ends. It is one of the early hidden story trophies — its name gives away a mission title, which is why PlayStation hides it until earned. Just play the story in order and it will pop on its own.",
+   "guide": "Automatic story trophy for the mission Breakfast Run. It pops when the mission ends; no extra objective is needed. Story missions have no gold medals and cannot be replayed, so enjoy the mission itself — the trophy is guaranteed on completion.",
    "steps": [
-    "Play the story until the Breakfast Run mission appears.",
-    "Complete the Breakfast Run mission.",
-    "The trophy pops at the mission end screen."
+    "Play the story mission Breakfast Run.",
+    "The trophy pops when the mission ends."
    ],
-   "sources": ["PowerPyx", "PlanetGTA6"]
+   "sources": ["powerpyx", "planetgta6"]
   },
   {
    "id": 9,
@@ -154,17 +143,15 @@
    "description": "Complete The Cartel Heist.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "story",
    "missable": false,
+   "kind": "story",
    "stage": "S1",
-   "target": null,
-   "guide": "The Cartel Heist is a story heist mission, and this trophy unlocks automatically when it is done. Heist missions are the big set-pieces of the story — there is no special requirement beyond finishing the mission itself. PowerPyx lists it as an automatic story trophy.",
+   "guide": "Automatic story trophy for the mission The Cartel Heist. It pops when the mission ends. Heist missions are story beats, not the separate bank-vault robberies that Maximum Withdrawal counts, so do not confuse the two.",
    "steps": [
-    "Play the story until The Cartel Heist mission appears.",
-    "Complete The Cartel Heist mission.",
-    "The trophy pops at the mission end screen."
+    "Play the story mission The Cartel Heist.",
+    "The trophy pops when the mission ends."
    ],
-   "sources": ["PowerPyx", "PlanetGTA6"]
+   "sources": ["powerpyx", "egamers"]
   },
   {
    "id": 10,
@@ -172,17 +159,15 @@
    "description": "Complete Child's Play.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "story",
    "missable": false,
+   "kind": "story",
    "stage": "S1",
-   "target": null,
-   "guide": "Child's Play is a story mission, and this trophy is automatic when it ends. Like the other mission trophies, it is hidden on PlayStation until earned because its name reveals a mission title. Play the story in order and it will unlock on its own.",
+   "guide": "Automatic story trophy for the mission Child's Play. It pops when the mission ends. Like every story mission, it cannot be missed and cannot be replayed, so a manual save before it is the only safety net if you want to re-experience it.",
    "steps": [
-    "Play the story until the Child's Play mission appears.",
-    "Complete the Child's Play mission.",
-    "The trophy pops at the mission end screen."
+    "Play the story mission Child's Play.",
+    "The trophy pops when the mission ends."
    ],
-   "sources": ["PowerPyx", "PlanetGTA6"]
+   "sources": ["powerpyx", "planetgta6"]
   },
   {
    "id": 11,
@@ -190,17 +175,15 @@
    "description": "Complete Headliners.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "story",
    "missable": false,
+   "kind": "story",
    "stage": "S1",
-   "target": null,
-   "guide": "Headliners is a story mission, and this trophy unlocks automatically when it is done. The stylised name (DWNFALL) is how PlayStation publishes it. There is no extra objective — finish the mission and the trophy follows.",
+   "guide": "Automatic story trophy for the mission Headliners. It pops when the mission ends. The name is stylised with no vowel, exactly as PlayStation lists it.",
    "steps": [
-    "Play the story until the Headliners mission appears.",
-    "Complete the Headliners mission.",
-    "The trophy pops at the mission end screen."
+    "Play the story mission Headliners.",
+    "The trophy pops when the mission ends."
    ],
-   "sources": ["PowerPyx", "PlanetGTA6"]
+   "sources": ["powerpyx", "egamers"]
   },
   {
    "id": 12,
@@ -208,17 +191,15 @@
    "description": "Complete VCIA Takedown.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "story",
    "missable": false,
+   "kind": "story",
    "stage": "S1",
-   "target": null,
-   "guide": "VCIA Takedown is a story mission at the airport, and this trophy is automatic when it ends. It is also the mission that sets up the Catch Me If You Can trophy (an unscheduled departure at VCIA), so remember the airport layout — you will come back here for that one.",
+   "guide": "Automatic story trophy for the mission VCIA Takedown. It pops when the mission ends. VCIA is the airport; the unrelated trophy Catch Me If You Can also happens there, but it is a separate free-roam stunt, not this mission.",
    "steps": [
-    "Play the story until the VCIA Takedown mission appears.",
-    "Complete the VCIA Takedown mission.",
-    "The trophy pops at the mission end screen."
+    "Play the story mission VCIA Takedown.",
+    "The trophy pops when the mission ends."
    ],
-   "sources": ["PowerPyx", "PlanetGTA6"]
+   "sources": ["powerpyx", "planetgta6"]
   },
   {
    "id": 13,
@@ -226,17 +207,15 @@
    "description": "Complete Operation Savage Glory.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "story",
    "missable": false,
+   "kind": "story",
    "stage": "S1",
-   "target": null,
-   "guide": "Operation Savage Glory is a story mission, and this trophy unlocks automatically when it is done. It is the last of the named story-mission trophies before the finale, so once it pops you are close to the end of the plot. Play the story in order and it will unlock on its own.",
+   "guide": "Automatic story trophy for the mission Operation Savage Glory. It pops when the mission ends. This is the last of the six named story-mission trophies; after it, the remaining story trophies are the chapter completions and the finale.",
    "steps": [
-    "Play the story until the Operation Savage Glory mission appears.",
-    "Complete the Operation Savage Glory mission.",
-    "The trophy pops at the mission end screen."
+    "Play the story mission Operation Savage Glory.",
+    "The trophy pops when the mission ends."
    ],
-   "sources": ["PowerPyx", "PlanetGTA6"]
+   "sources": ["powerpyx", "egamers"]
   },
   {
    "id": 14,
@@ -244,19 +223,16 @@
    "description": "Attain 100% Completion.",
    "grade": "gold",
    "hidden": false,
-   "kind": "story",
    "missable": false,
+   "kind": "story",
    "stage": "S7",
-   "target": null,
-   "guide": "The hardest trophy in the set, and the last big gate before the platinum. The 100% Completion checklist appears under Progress, then Stats, only after the story ends. PowerPyx says it is closer to 60% true game completion — most side quests are not required, and collectibles are only partly required. You need 70 of the 80 Challenges, 200 of 277 base vehicle models, and 100 of 255 animals studied through binoculars. The only tasks that demand everything are robberies, underwater discoveries, shooting ranges, drone races and Bret's quests.",
+   "guide": "The hardest trophy and the last big gate before the platinum. PowerPyx and GameMapa agree it is closer to 60% true completion: you need 200 of 277 base vehicles, 100 of 255 animals studied through binoculars, 70 of 80 challenges, 15 of 18 card sets, and every robbery, underwater discovery, shooting range, drone race and Bret quest. After the story, open Progress > Stats to see the checklist.",
    "steps": [
-    "Finish the story, then open Progress, then Stats, to see the 100% Completion checklist.",
-    "Clear every robbery, underwater discovery, shooting range, drone race and Bret quest — these need 100%.",
-    "Reach 70 of 80 Challenges (you may skip the hardest 10).",
-    "Scan 200 of 277 base vehicle models and study 100 of 255 animals through binoculars.",
-    "The trophy pops when the checklist hits 100%."
+    "Finish the story, then open Progress > Stats > 100% Completion.",
+    "Work the checklist: 200 vehicles, 100 animals studied, 70 challenges, 15 card sets, all robberies and ranges.",
+    "The trophy pops at 100%; the platinum follows once the last stray trophy lands."
    ],
-   "sources": ["PowerPyx", "GameMapa"]
+   "sources": ["powerpyx", "gamemapa", "keengamer"]
   },
   {
    "id": 15,
@@ -264,20 +240,17 @@
    "description": "Complete 250 Stunts.",
    "grade": "silver",
    "hidden": false,
-   "kind": "activities",
    "missable": false,
+   "kind": "activities",
    "stage": "S4",
-   "target": 250,
-   "unit": "stunts",
-   "step": 1,
-   "guide": "Any 250 of the 397 stunts count — jumps, under-bridge flights, Knife Flights and base jumps. You do not need all 397, so skip the ones that frustrate you and repeat the easy ones in different spots. Stunts are the biggest single grind in the activities set, so chip away at them between missions rather than leaving all 250 for the end. GameMapa reports 397 stunts in total, with 250 needed.",
+   "counter": {"target": 250, "unit": "stunts", "label": "stunts"},
+   "guide": "Complete 250 stunts. Push Square reports there are 397 stunts in the game, so you need a little over half of them. Stunts are the jumps and air tricks scattered across Leonida; use fast cars and the stunt ramps, and track the count in Progress > Stats. It comes naturally across a full playthrough plus cleanup.",
    "steps": [
-    "Open the stunt list and pick a cluster of easy jumps near each other.",
-    "Land jumps, fly under bridges, and try Knife Flights and base jumps — each counts.",
-    "Repeat in new spots; only 250 of 397 are needed, so skip the hard ones.",
-    "Track the count here; the trophy pops at 250."
+    "Hit stunt jumps and ramps as you travel; every landing counts.",
+    "Check the running total under Progress > Stats.",
+    "Sweep the remaining stunt spots in free-roam after the story."
    ],
-   "sources": ["GameMapa", "PowerPyx"]
+   "sources": ["pushsquare", "powerpyx"]
   },
   {
    "id": 16,
@@ -285,20 +258,16 @@
    "description": "Try each type of activity once.",
    "grade": "bronze",
    "hidden": false,
-   "kind": "activities",
    "missable": false,
+   "kind": "activities",
    "stage": "S4",
-   "target": 9,
-   "unit": "activity types",
-   "step": 1,
-   "guide": "Try all 9 activity types at least once — you only need one attempt at each, not a win. The nine are the game's side activities (races, fishing, arcade, shooting range, drone races, stunts, meditation, hunting and one more of the open-world pastimes). Dip into each early so you know which ones you enjoy; the rest of the activity trophies build on the same list. PowerPyx and KeenGamer both put the count at nine types.",
+   "guide": "Try each of the 9 activity types once. The activities are the side pursuits across Leonida — racing, fishing, arcade games, shooting ranges, drone races, and the rest. One try of each is enough; you do not need to win or gold them for this trophy. PowerPyx lists the activities as part of the S4 cleanup.",
    "steps": [
-    "Open the activities list and note the 9 types.",
-    "Try each type once — an attempt counts, a win is not needed.",
-    "Tick each type off here as you try it.",
-    "The trophy pops when all 9 show as tried."
+    "Open the activities list and try one of each type.",
+    "A single attempt of each counts — no win needed.",
+    "The trophy pops after the ninth type."
    ],
-   "sources": ["PowerPyx", "KeenGamer"]
+   "sources": ["powerpyx", "keengamer"]
   },
   {
    "id": 17,
@@ -306,20 +275,17 @@
    "description": "Earn a gold medal in all Shooting Range challenges.",
    "grade": "silver",
    "hidden": false,
-   "kind": "activities",
    "missable": false,
+   "kind": "activities",
    "stage": "S4",
-   "target": 42,
-   "unit": "gold medals",
-   "step": 1,
-   "guide": "Gold all 42 Shooting Range challenges. This is one of the few tasks the 100% checklist also demands in full, so there is no shortcut — every range needs a gold. Use a steady weapon, take your time on the timed lanes, and redo a challenge immediately while the layout is fresh in your head. PowerPyx lists the count at 42 gold medals.",
+   "counter": {"target": 42, "unit": "challenges", "label": "gold medals"},
+   "guide": "Earn a gold medal in all 42 Shooting Range challenges across the 12 shooting ranges. The Games Wiki notes there are 12 ranges; each holds several challenges. Gold each one — silver or bronze does not count. Take your time, learn each range's pattern, and use the best weapon the range offers.",
    "steps": [
-    "Visit a Shooting Range and open its challenge list.",
-    "Earn a gold medal on each of the 42 challenges.",
-    "Redo a failed challenge at once while the layout is fresh.",
-    "The trophy pops at 42 golds."
+    "Visit all 12 shooting ranges across Leonida.",
+    "Gold every challenge in each range (42 total).",
+    "Replay any challenge that lands below gold until it is gold."
    ],
-   "sources": ["PowerPyx", "KeenGamer"]
+   "sources": ["powerpyx", "gamemapa"]
   },
   {
    "id": 18,
@@ -327,20 +293,17 @@
    "description": "Win a Top Fun Drone Race at every location.",
    "grade": "bronze",
    "hidden": false,
-   "kind": "activities",
    "missable": false,
+   "kind": "activities",
    "stage": "S4",
-   "target": 14,
-   "unit": "locations",
-   "step": 1,
-   "guide": "Win a Top Fun drone race at all 14 locations. Drone races are also one of the tasks the 100% checklist demands in full, so every location matters. Learn each course's tight corners on a practice run, then race to win — a win at each of the 14 spots is what counts, not a single fast time.",
+   "counter": {"target": 14, "unit": "locations", "label": "locations won"},
+   "guide": "Win a Top Fun drone race at all 14 locations. PowerPyx lists 14 Top Fun spots; each has its own drone race. You only need one win per location, so learn each course's line, then move on. Drone races are also required for 100% completion.",
    "steps": [
-    "Find the 14 Top Fun drone race locations across Leonida.",
-    "Practice a course once to learn its corners, then race to win.",
-    "Win at each of the 14 locations.",
-    "The trophy pops at 14 wins."
+    "Find the 14 Top Fun locations across Leonida.",
+    "Win one drone race at each location.",
+    "The trophy pops after the 14th win."
    ],
-   "sources": ["PowerPyx", "KeenGamer"]
+   "sources": ["powerpyx", "keengamer"]
   },
   {
    "id": 19,
@@ -348,20 +311,17 @@
    "description": "Win 20 different races.",
    "grade": "bronze",
    "hidden": false,
-   "kind": "activities",
    "missable": false,
+   "kind": "activities",
    "stage": "S4",
-   "target": 20,
-   "unit": "races",
-   "step": 1,
-   "guide": "Win 20 different races — the word different matters, so repeating the same race does not count twice. Spread across the race types (street, off-road, boat, air) and pick the ones that suit your vehicle. Each new race you win ticks the count up by one; 20 distinct wins is the target.",
+   "counter": {"target": 20, "unit": "races", "label": "different races won"},
+   "guide": "Win 20 different races. Each distinct race counts once, so winning the same race twice does not help. Mix car, bike and boat races across Leonida; the race list in the activities menu shows which you have won. Races also feed the 100% checklist.",
    "steps": [
-    "Open the race list and pick 20 different races.",
-    "Win each one — a repeat win on the same race does not count again.",
-    "Mix race types to suit your best vehicles.",
-    "The trophy pops at 20 distinct wins."
+    "Enter races across Leonida — road, off-road and water.",
+    "Win 20 different ones; repeats do not count twice.",
+    "Check the activities menu for which races are still unwon."
    ],
-   "sources": ["PowerPyx", "KeenGamer"]
+   "sources": ["powerpyx", "egamers"]
   },
   {
    "id": 20,
@@ -369,41 +329,34 @@
    "description": "Beat Cal in a fishing challenge.",
    "grade": "bronze",
    "hidden": false,
-   "kind": "activities",
    "missable": false,
+   "kind": "activities",
    "stage": "S4",
-   "target": 1,
-   "unit": "challenge",
-   "step": 1,
-   "guide": "Beat Cal in a fishing challenge. Fishing is one of the nine activity types, so this also ticks a box toward Master of None. Take the best rod and bait you can afford, watch the line tension, and do not rush the reel — Cal is beatable with patience rather than speed.",
+   "guide": "Beat Cal in a fishing challenge. Cal is the fishing rival; challenge him at a fishing spot and out-fish him. Fishing is one of the 9 activity types, so this also counts toward Master of None. Use the best rod and bait you have, and watch the tension meter.",
    "steps": [
-    "Find Cal and accept his fishing challenge.",
-    "Use your best rod and bait.",
-    "Keep the line tension steady and reel patiently.",
-    "Beat Cal's catch to pop the trophy."
+    "Go fishing and find Cal's challenge.",
+    "Out-fish Cal in the challenge.",
+    "The trophy pops when you beat him."
    ],
-   "sources": ["PowerPyx", "KeenGamer"]
-  },
+   "sources": ["powerpyx", "keengamer"]
+  }
+,
   {
    "id": 21,
    "name": "Stick Fiddler",
    "description": "Complete an arcade game.",
    "grade": "bronze",
    "hidden": false,
-   "kind": "activities",
    "missable": false,
+   "kind": "activities",
    "stage": "S4",
-   "target": 1,
-   "unit": "game",
-   "step": 1,
-   "guide": "Finish a single arcade game — any one will do. Arcade cabinets are scattered around Leonida's bars and arcades; sit down at one and play it through to the end. This is one of the quickest activity trophies and also counts as one of the nine activity types for Master of None.",
+   "guide": "Complete an arcade game. Arcade cabinets are found in arcades and some homes; the Games Wiki notes Bang For Your Buck is playable at home or on arcade cabinets. Any single completed game counts — you do not need a high score. This is also one of the 9 activity types for Master of None.",
    "steps": [
-    "Find an arcade cabinet in a bar or arcade.",
-    "Start any arcade game.",
-    "Play it through to the end.",
-    "The trophy pops when the game completes."
+    "Find an arcade cabinet in an arcade or a home.",
+    "Play and complete one full arcade game.",
+    "The trophy pops at the game's end screen."
    ],
-   "sources": ["PowerPyx", "KeenGamer"]
+   "sources": ["powerpyx", "gamemapa"]
   },
   {
    "id": 22,
@@ -411,17 +364,16 @@
    "description": "Complete the final mission for Andy.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "story",
    "missable": false,
+   "kind": "story",
    "stage": "S3",
-   "target": null,
-   "guide": "Andy's mission strand ends with a final mission, and this trophy pops when it is done. Andy's strand is Lucia-only, so play it as Lucia. The quest givers tied to trophies come back after the story, so even if you finish the plot first, Andy's strand stays available in free-roam. PowerPyx notes the Lucia-only and Jason-only strands and that every trophy quest giver returns after the story.",
+   "guide": "Complete the final mission for Andy, who is Lucia-only. Character finales unlock as the story progresses; Andy's chain is Lucia's. Finish each mission in the chain in order — the finale is the last one. PowerPyx lists the five character finales (Andy, Kenton, Billy, Randy, Tyrone) as S3 cleanup after the story.",
    "steps": [
-    "Play as Lucia and follow Andy's mission strand.",
-    "Complete each of Andy's missions in order.",
-    "Finish Andy's final mission to pop the trophy."
+    "Play as Lucia and follow Andy's mission chain.",
+    "Complete each mission in order.",
+    "The trophy pops after Andy's final mission."
    ],
-   "sources": ["PowerPyx", "GTASpotter"]
+   "sources": ["powerpyx", "keengamer"]
   },
   {
    "id": 23,
@@ -429,17 +381,16 @@
    "description": "Complete the final mission for Kenton.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "story",
    "missable": false,
+   "kind": "story",
    "stage": "S3",
-   "target": null,
-   "guide": "Kenton's mission strand ends with a final mission, and this trophy pops when it is done. The name is a joke about a boat, so expect water in the strand. Like the other character finales, it stays available in free-roam after the story, so there is no rush — but clearing it before the finale keeps the endgame tidy.",
+   "guide": "Complete the final mission for Kenton. Kenton's chain is one of the five character finale chains. Play the missions in order; the finale is the last mission in his chain. The boat in the name is a hint to the finale's setting, not a separate objective.",
    "steps": [
-    "Follow Kenton's mission strand to its end.",
-    "Complete each of Kenton's missions in order.",
-    "Finish Kenton's final mission to pop the trophy."
+    "Follow Kenton's mission chain in order.",
+    "Complete each mission as it appears.",
+    "The trophy pops after Kenton's final mission."
    ],
-   "sources": ["PowerPyx", "GTASpotter"]
+   "sources": ["powerpyx", "planetgta6"]
   },
   {
    "id": 24,
@@ -447,17 +398,16 @@
    "description": "Complete the final mission for Billy.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "story",
    "missable": false,
+   "kind": "story",
    "stage": "S3",
-   "target": null,
-   "guide": "Billy's mission strand ends with a final mission, and this trophy pops when it is done. The strand is built around riding, so keep a good bike handy. It stays available in free-roam after the story, like the other character finales, so you can finish it whenever it suits your route.",
+   "guide": "Complete the final mission for Billy. Billy's chain is one of the five character finale chains. Play the missions in order; the finale is the last one. The rider in the name points to the bike-heavy finale, not a separate stunt.",
    "steps": [
-    "Follow Billy's mission strand to its end.",
-    "Complete each of Billy's missions in order.",
-    "Finish Billy's final mission to pop the trophy."
+    "Follow Billy's mission chain in order.",
+    "Complete each mission as it appears.",
+    "The trophy pops after Billy's final mission."
    ],
-   "sources": ["PowerPyx", "GTASpotter"]
+   "sources": ["powerpyx", "egamers"]
   },
   {
    "id": 25,
@@ -465,20 +415,17 @@
    "description": "Complete 8 mission strands for strangers across the state of Leonida.",
    "grade": "silver",
    "hidden": false,
-   "kind": "story",
    "missable": false,
+   "kind": "story",
    "stage": "S3",
-   "target": 8,
-   "unit": "strands",
-   "step": 1,
-   "guide": "Finish 8 stranger mission strands across Leonida. Stranger missions appear as icons on the map as you explore; each strand is a short chain with its own characters. Eight strands is the target, and the character finales (Andy, Kenton, Billy, Randy, Tyrone) are separate trophies, so count only the stranger strands here. PowerPyx puts the cleanup of Strangers & Freaks in its final step, after the 100% checklist.",
+   "counter": {"target": 8, "unit": "strands", "label": "strands completed"},
+   "guide": "Complete 8 mission strands for strangers across Leonida. Stranger missions appear as purple icons, plus black icons with pink letters, as PowerPyx notes. Each strand is a short chain; finish all of one strand before it counts. GameMapa's roadmap puts this in the final cleanup step, about 10 hours, because the checklist does not require these quests.",
    "steps": [
-    "Explore Leonida and note the stranger mission icons on the map.",
-    "Start a strand and finish all of its missions.",
-    "Repeat until 8 strands are complete.",
-    "The trophy pops at 8 strands."
+    "Look for purple stranger icons (and black icons with pink letters) across Leonida.",
+    "Finish a full strand — a single mission in a strand does not count.",
+    "Complete 8 strands; the trophy pops after the eighth."
    ],
-   "sources": ["PowerPyx", "KeenGamer"]
+   "sources": ["powerpyx", "gamemapa"]
   },
   {
    "id": 26,
@@ -486,17 +433,16 @@
    "description": "Complete the final mission for Randy.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "story",
    "missable": false,
+   "kind": "story",
    "stage": "S3",
-   "target": null,
-   "guide": "Randy's mission strand ends with a final mission, and this trophy pops when it is done. The strand is built around supply runs, so expect driving and delivery work. It stays available in free-roam after the story, like the other character finales.",
+   "guide": "Complete the final mission for Randy. Randy's chain is one of the five character finale chains. Play the missions in order; the finale is the last one. The supply in the name is the chain's theme, not a collectible to gather.",
    "steps": [
-    "Follow Randy's mission strand to its end.",
-    "Complete each of Randy's missions in order.",
-    "Finish Randy's final mission to pop the trophy."
+    "Follow Randy's mission chain in order.",
+    "Complete each mission as it appears.",
+    "The trophy pops after Randy's final mission."
    ],
-   "sources": ["PowerPyx", "GTASpotter"]
+   "sources": ["powerpyx", "planetgta6"]
   },
   {
    "id": 27,
@@ -504,17 +450,16 @@
    "description": "Complete the final mission for Tyrone.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "story",
    "missable": false,
+   "kind": "story",
    "stage": "S3",
-   "target": null,
-   "guide": "Tyrone's mission strand ends with a final mission, and this trophy pops when it is done. Tyrone's strand is Jason-only, so play it as Jason. Like the other character finales, it stays available in free-roam after the story. PowerPyx notes the Jason-only strands (Tyrone and Bret) alongside the Lucia-only one (Andy).",
+   "guide": "Complete the final mission for Tyrone, who is Jason-only. Tyrone's chain is one of the five character finale chains. Play as Jason and follow the chain in order; the finale is the last mission. This is the last of the five character finales.",
    "steps": [
-    "Play as Jason and follow Tyrone's mission strand.",
-    "Complete each of Tyrone's missions in order.",
-    "Finish Tyrone's final mission to pop the trophy."
+    "Play as Jason and follow Tyrone's mission chain.",
+    "Complete each mission in order.",
+    "The trophy pops after Tyrone's final mission."
    ],
-   "sources": ["PowerPyx", "GTASpotter"]
+   "sources": ["powerpyx", "keengamer"]
   },
   {
    "id": 28,
@@ -522,20 +467,18 @@
    "description": "Meditate at every spot across Leonida.",
    "grade": "bronze",
    "hidden": false,
-   "kind": "collectibles",
    "missable": true,
+   "kind": "collectibles",
    "stage": "S2",
-   "target": 18,
-   "unit": "spots",
-   "step": 1,
-   "guide": "THE ONE TROPHY YOU CAN MISS. Meditate at all 18 spots across Leonida — and the first one is missable. In Chapter 1, after the mission Down to Earth, look for Lucia at Jason's house in the morning; when she mentions meditating, follow her to the balcony and accept her invitation. Complete that balcony meditation before leaving Chapter 1, or it is gone. The last meditation cannot be done until you can play as both characters, after Coffee Break in Chapter 2. PowerPyx and GTABase both flag this as the only possibly missable trophy in the game.",
+   "counter": {"target": 18, "unit": "spots", "label": "meditation spots"},
+   "guide": "THE ONE TROPHY YOU CAN MISS. Meditate at all 18 spots across Leonida — and the first one is missable. In Chapter 1, after the mission Down to Earth, look for Lucia at Jason's house in the morning; when she mentions meditating, follow her to the balcony and accept her invitation. Complete that balcony meditation before leaving Chapter 1, or it is gone. The last meditation cannot be done until you can play as both characters, after Coffee Break in Chapter 2. PowerPyx and KeenGamer both flag this as the only possibly missable trophy in the game.",
    "steps": [
     "CHAPTER 1 — after Down to Earth: find Lucia at Jason's house in the morning, follow her to the balcony, and meditate. Do this BEFORE leaving Chapter 1.",
     "After Coffee Break (Chapter 2), when you can play as both characters, start the remaining spots.",
     "Meditate at each of the 18 spots across Leonida.",
     "The trophy pops at 18 spots. Keep a manual save at each chapter boundary as a safety net."
    ],
-   "sources": ["PowerPyx", "GTASpotter"]
+   "sources": ["powerpyx", "gamemapa", "keengamer"]
   },
   {
    "id": 29,
@@ -543,20 +486,16 @@
    "description": "Hunt a unique animal for Bret.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "story",
    "missable": false,
+   "kind": "activities",
    "stage": "S3",
-   "target": 1,
-   "unit": "animal",
-   "step": 1,
-   "guide": "Hunt a unique animal for Bret. Bret's quests are also one of the tasks the 100% checklist demands in full, so this strand matters twice. Bret's strand is Jason-only. Track the animal with the hunting tools, take the shot cleanly, and bring the result back to Bret. PowerPyx notes Bret's quests among the full-completion tasks and the Jason-only strands.",
+   "guide": "Hunt a unique animal for Bret. Bret's quest is part of the 100% checklist — GameMapa notes you need every Bret quest. Find the unique animal Bret asks for, track it, and hunt it. Unlike the 100 animals you only need to study through binoculars for 100%, this one must actually be hunted.",
    "steps": [
-    "Play as Jason and pick up Bret's hunting strand.",
-    "Track the unique animal Bret asks for.",
-    "Hunt it and return to Bret.",
-    "The trophy pops when the hunt is handed in."
+    "Take Bret's quest and learn which unique animal he wants.",
+    "Track the animal to its habitat.",
+    "Hunt it; the trophy pops on the kill."
    ],
-   "sources": ["PowerPyx", "GTASpotter"]
+   "sources": ["gamemapa", "powerpyx"]
   },
   {
    "id": 30,
@@ -564,19 +503,17 @@
    "description": "Complete 3 Collectible Card sets.",
    "grade": "silver",
    "hidden": false,
-   "kind": "collectibles",
    "missable": false,
+   "kind": "collectibles",
    "stage": "S5",
-   "target": 3,
-   "unit": "sets",
-   "step": 1,
-   "guide": "Complete 3 collectible card sets. Cards are hidden around Leonida, and the 100% checklist asks for 15 complete sets in total — so this trophy is only the start of the card hunt. Pick three sets and finish them first, then keep collecting toward the 15 the checklist wants. KeenGamer reports 15 complete card sets for the 100% checklist.",
+   "counter": {"target": 3, "unit": "sets", "label": "card sets completed"},
+   "guide": "Complete 3 Collectible Card sets. There are 18 card sets in the game, and 100% completion needs 15 of them, so this trophy is only the start. Cards are scattered across Leonida; use the collectible map in the guides and pick up cards as you travel. A set counts when every card in it is found.",
    "steps": [
-    "Find collectible cards around Leonida and note which set each belongs to.",
-    "Complete 3 full sets.",
-    "The trophy pops at 3 sets — then keep going toward the 15 the 100% checklist wants."
+    "Find collectible cards across Leonida.",
+    "Complete one full set — every card in that set.",
+    "Complete 3 sets; the trophy pops after the third."
    ],
-   "sources": ["KeenGamer", "PowerPyx"]
+   "sources": ["powerpyx", "gamemapa"]
   },
   {
    "id": 31,
@@ -584,20 +521,17 @@
    "description": "WAiNK It at 100 locations.",
    "grade": "silver",
    "hidden": false,
-   "kind": "collectibles",
    "missable": false,
+   "kind": "collectibles",
    "stage": "S5",
-   "target": 100,
-   "unit": "locations",
-   "step": 1,
-   "guide": "Scan 100 spots with the WAiNK app — landmarks, curiosities and sculptures. WAiNK is the in-game camera/scan app, so point it at anything that looks like a landmark and scan it. The 100% checklist also wants 100 WAiNK locations, so this trophy and the checklist line up exactly. GameMapa describes the spots as landmarks, curiosities and sculptures.",
+   "counter": {"target": 100, "unit": "locations", "label": "WAiNK locations"},
+   "guide": "WAiNK It at 100 locations. WAiNK is the in-game scanning app — open it at a location and scan. PowerPyx advises scanning every new vehicle and location as you travel, since 100% completion also needs 100 WAiNK locations. It is a habit trophy: scan often and it pops on its own.",
    "steps": [
-    "Open the WAiNK app on your phone.",
-    "Point it at landmarks, curiosities and sculptures and scan them.",
-    "Work through towns and the countryside — 100 spots is the target.",
-    "The trophy pops at 100 scanned locations."
+    "Open the WAiNK app at new locations and scan.",
+    "Scan every new spot as you travel the story.",
+    "The trophy pops at 100 locations."
    ],
-   "sources": ["GameMapa", "PowerPyx"]
+   "sources": ["powerpyx", "keengamer"]
   },
   {
    "id": 32,
@@ -605,20 +539,17 @@
    "description": "Complete 50 Challenges.",
    "grade": "bronze",
    "hidden": false,
-   "kind": "activities",
    "missable": false,
+   "kind": "activities",
    "stage": "S4",
-   "target": 50,
-   "unit": "challenges",
-   "step": 1,
-   "guide": "Finish 50 challenges. The game has 80 challenges in eight groups of ten, and the 100% checklist only needs 70 of them — so you can skip the hardest 10 entirely. Pick the easy groups first and let the count build as you play; 50 is well within reach before you chase the 70. PowerPyx reports 80 challenges in eight groups of ten, with 70 needed for 100%.",
+   "counter": {"target": 50, "unit": "challenges", "label": "challenges completed"},
+   "guide": "Complete 50 Challenges. There are 80 challenges in the game and 100% completion needs 70 of them, so you can skip the nastiest ones. Challenges are the small feats across activities and the open world; the challenge list shows your progress. Pick the easy ones first, then work toward 70 for 100%.",
    "steps": [
-    "Open the challenges list (eight groups of ten).",
-    "Clear the easiest groups first.",
-    "Reach 50 completed challenges for this trophy.",
-    "Keep going to 70 for the 100% checklist — the hardest 10 can be skipped."
+    "Open the challenge list and pick the easiest ones first.",
+    "Complete 50 challenges for this trophy.",
+    "Keep going to 70 for the 100% checklist."
    ],
-   "sources": ["PowerPyx", "GTASpotter"]
+   "sources": ["gamemapa", "powerpyx"]
   },
   {
    "id": 33,
@@ -626,20 +557,16 @@
    "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
    "grade": "bronze",
    "hidden": false,
-   "kind": "crime",
    "missable": false,
+   "kind": "crime",
    "stage": "S6",
-   "target": 1,
-   "unit": "escape",
-   "step": 1,
-   "guide": "Lose a 4-star Wanted Level with your partner beside you and escape. Build the wanted level with your partner present, then break line of sight and stay out of the search area until it clears. A fast car and a quiet corner of the map make this much easier than fighting it out — the goal is to escape, not to win a shootout.",
+   "guide": "Lose a 4-star Wanted Level with your partner and escape the heat. Bring your partner along, raise your wanted level to 4 stars, then break line of sight and escape together. Use a fast car, break the cops' line of sight, and stay hidden until the stars clear. The partner must be with you when the heat drops.",
    "steps": [
-    "Play with your partner beside you.",
-    "Raise your Wanted Level to 4 stars.",
-    "Break line of sight and hide until the heat clears.",
+    "Bring your partner and raise your wanted level to 4 stars.",
+    "Escape together — break line of sight and hide until the stars clear.",
     "The trophy pops when the wanted level is gone."
    ],
-   "sources": ["PowerPyx", "KeenGamer"]
+   "sources": ["powerpyx", "egamers"]
   },
   {
    "id": 34,
@@ -647,20 +574,17 @@
    "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
    "grade": "bronze",
    "hidden": false,
-   "kind": "crime",
    "missable": false,
+   "kind": "crime",
    "stage": "S6",
-   "target": 3,
-   "unit": "shops",
-   "step": 1,
-   "guide": "Rob 3 shops back-to-back with your partner, without losing your Wanted Level. The trick is the 'without losing' part — keep the wanted level the whole way through all three robberies, so do not let it clear between shops. Pick three shops close together, move fast, and keep your partner with you for all three.",
+   "counter": {"target": 3, "unit": "shops", "label": "shops in a row"},
+   "guide": "Rob 3 shops back-to-back with your partner without losing your Wanted Level. The trick is the opposite of escaping: you must KEEP the wanted level the whole time. Rob a shop, move straight to the next, and rob it before the heat dies down. Do all three in one run with your partner beside you.",
    "steps": [
-    "Pick three shops close together on the map.",
-    "Rob the first shop with your partner present to raise your Wanted Level.",
-    "Rob the second and third shops back-to-back, keeping the wanted level alive.",
-    "The trophy pops after the third robbery."
+    "Bring your partner and rob a shop to gain a wanted level.",
+    "Move immediately to the next shop and rob it while still wanted.",
+    "Rob a third shop the same way, without the wanted level ever clearing."
    ],
-   "sources": ["PowerPyx", "KeenGamer"]
+   "sources": ["powerpyx", "keengamer"]
   },
   {
    "id": 35,
@@ -668,20 +592,17 @@
    "description": "Discover 100 vehicles.",
    "grade": "bronze",
    "hidden": false,
-   "kind": "collectibles",
    "missable": false,
+   "kind": "collectibles",
    "stage": "S5",
-   "target": 100,
-   "unit": "vehicles",
-   "step": 1,
-   "guide": "Discover 100 vehicles. Scanning vehicles with the WAiNK app counts toward this and toward the 100% checklist, which wants 200 of the 277 base vehicle models. Scan every new vehicle you see as you drive — it is the same habit that feeds the checklist, so doing it from the start saves a second sweep later. PowerPyx puts the checklist at 200 of 277 base models.",
+   "counter": {"target": 100, "unit": "vehicles", "label": "vehicles discovered"},
+   "guide": "Discover 100 vehicles. Vehicles count as discovered when you scan them with WAiNK or drive them. PowerPyx notes 100% completion needs 200 of the 277 base vehicle models, so this trophy is halfway there. Drive everything you see and scan new models as you find them.",
    "steps": [
-    "Scan every new vehicle you see with the WAiNK app.",
-    "Drive through different districts — new models appear in new areas.",
-    "Reach 100 discovered vehicles for this trophy.",
-    "Keep scanning toward 200 for the 100% checklist."
+    "Drive and scan every new vehicle model you see.",
+    "Use the WAiNK app to log new models.",
+    "The trophy pops at 100 vehicles; keep going to 200 for 100%."
    ],
-   "sources": ["PowerPyx", "GameMapa"]
+   "sources": ["powerpyx", "gamemapa"]
   },
   {
    "id": 36,
@@ -689,20 +610,17 @@
    "description": "Take down 5 enemies in a single use of Combat Focus.",
    "grade": "bronze",
    "hidden": false,
-   "kind": "crime",
    "missable": false,
+   "kind": "crime",
    "stage": "S6",
-   "target": 5,
-   "unit": "enemies",
-   "step": 1,
-   "guide": "Take down 5 enemies in a single use of Combat Focus. Before the fight, buff your focus with food, drinks or a shower at home, and bring Adrenaline. Use an assault rifle for the range and rate of fire, trigger Combat Focus when five enemies are in view, and drop all five before it ends. GameMapa's tip is to buff focus first, bring Adrenaline, and use an assault rifle.",
+   "counter": {"target": 5, "unit": "enemies", "label": "enemies in one Combat Focus"},
+   "guide": "Take down 5 enemies in a single use of Combat Focus. Combat Focus is the slow-aim mode. Find a spot with at least 5 enemies grouped together, trigger Combat Focus, and drop all 5 before it ends. A busy gang shootout or a police standoff is the best place to try it.",
    "steps": [
-    "Buff your focus with food, drinks or a shower at home.",
-    "Bring Adrenaline and an assault rifle.",
-    "Find a fight with at least 5 enemies in view.",
-    "Trigger Combat Focus and drop all 5 before it ends."
+    "Find a fight with at least 5 enemies close together.",
+    "Trigger Combat Focus and take down 5 before it ends.",
+    "The trophy pops on the fifth takedown in that one use."
    ],
-   "sources": ["GameMapa", "PowerPyx"]
+   "sources": ["powerpyx", "egamers"]
   },
   {
    "id": 37,
@@ -710,20 +628,16 @@
    "description": "Make an unscheduled departure at VCIA.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "crime",
    "missable": false,
+   "kind": "crime",
    "stage": "S6",
-   "target": 1,
-   "unit": "departure",
-   "step": 1,
-   "guide": "Make an unscheduled departure at VCIA (the airport). This is a stunt-style trophy — leave the airport in a way no flight plan covers, such as taking a plane without clearance. The airport is the same place as the VCIA Takedown mission, so you already know the layout; now use it for a getaway instead of a takedown.",
+   "guide": "Make an unscheduled departure at VCIA, the airport. This is a free-roam stunt, not the story mission VCIA Takedown. Grab a plane at the airport and take off without following the usual departure — the trophy is about leaving on your own terms. Any aircraft at VCIA works.",
    "steps": [
-    "Go to VCIA (the airport).",
-    "Get to a plane on the runway.",
-    "Take off without clearance — an unscheduled departure.",
-    "The trophy pops once you are airborne and away."
+    "Go to VCIA airport in free-roam.",
+    "Get into an aircraft and take off on an unscheduled departure.",
+    "The trophy pops once you are airborne."
    ],
-   "sources": ["PowerPyx", "KeenGamer"]
+   "sources": ["powerpyx", "planetgta6"]
   },
   {
    "id": 38,
@@ -731,19 +645,16 @@
    "description": "Kinda hot in these Rhinos.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "crime",
    "missable": false,
+   "kind": "crime",
    "stage": "S6",
-   "target": 1,
-   "unit": "tank",
-   "step": 1,
-   "guide": "The description is a joke about Rhinos — the tanks. Get into a Rhino tank and make something of it. Tanks draw heavy attention, so pick a quiet moment and a clear route before you climb in. The trophy is a one-off moment rather than a grind, so it is a good palate cleanser between the big counters.",
+   "guide": "Kinda hot in these Rhinos. Rhinos are the tanks. This trophy is about getting into a Rhino tank and surviving the heat it brings — the cryptic description is the joke. Steal or commandeer a Rhino, then ride it until the trophy pops. Expect a heavy police response, so pick your moment.",
    "steps": [
     "Find a Rhino tank.",
-    "Get in and drive it.",
-    "Do what the moment asks — the trophy pops from the tank itself."
+    "Get in and ride it through the heat.",
+    "The trophy pops once you have survived the ride."
    ],
-   "sources": ["PowerPyx", "KeenGamer"]
+   "sources": ["powerpyx", "egamers"]
   },
   {
    "id": 39,
@@ -751,20 +662,16 @@
    "description": "Rob a jewelry store without being detected.",
    "grade": "bronze",
    "hidden": false,
-   "kind": "crime",
    "missable": false,
+   "kind": "crime",
    "stage": "S6",
-   "target": 1,
-   "unit": "store",
-   "step": 1,
-   "guide": "Rob a jewelry store without being detected. This is a stealth robbery — go in quiet, avoid the cameras and the staff's line of sight, take the goods, and leave before anyone raises the alarm. If you are spotted, leave and try again; a clean run is what counts, not a fast one.",
+   "guide": "Rob a jewelry store without being detected. This is a stealth robbery: get in, take the goods, and get out before anyone spots you. Move quietly, avoid cameras and staff sightlines, and leave before the alarm. If you are spotted, the attempt fails — leave and try again.",
    "steps": [
-    "Pick a jewelry store and case it first.",
-    "Enter quietly and avoid cameras and staff sightlines.",
-    "Take the goods without being detected.",
-    "Leave clean — the trophy pops on a successful undetected robbery."
+    "Enter a jewelry store quietly.",
+    "Take the goods without being seen by staff or cameras.",
+    "Leave undetected; the trophy pops on a clean getaway."
    ],
-   "sources": ["PowerPyx", "KeenGamer"]
+   "sources": ["powerpyx", "keengamer"]
   },
   {
    "id": 40,
@@ -772,41 +679,35 @@
    "description": "Rob 5 Bank Vaults and escape.",
    "grade": "silver",
    "hidden": false,
-   "kind": "crime",
    "missable": false,
+   "kind": "crime",
    "stage": "S6",
-   "target": 5,
-   "unit": "vaults",
-   "step": 1,
-   "guide": "Rob 5 bank vaults and escape. Bank vaults are also one of the tasks the 100% checklist demands in full — KeenGamer reports 8 bank vault robberies for the checklist, so this trophy's 5 is a milestone on the way to 8. Plan each vault (entry, loot, exit) and escape cleanly; a failed escape does not count.",
+   "counter": {"target": 5, "unit": "vaults", "label": "bank vaults robbed"},
+   "guide": "Rob 5 Bank Vaults and escape. Bank vault robberies are separate from the story's Cartel Heist. KeenGamer notes 100% completion needs 8 bank vault robberies, so this trophy is five of the eight. Each vault needs a plan and a getaway — escape after every vault for it to count.",
    "steps": [
-    "Find a bank vault and plan entry and exit.",
-    "Rob the vault and escape cleanly.",
-    "Repeat at 5 different vaults.",
-    "The trophy pops at 5 — keep going to 8 for the 100% checklist."
+    "Find and rob a bank vault, then escape.",
+    "Repeat for 5 vaults; each escape counts.",
+    "Keep going to 8 vaults for the 100% checklist."
    ],
-   "sources": ["KeenGamer", "PowerPyx"]
-  },
+   "sources": ["keengamer", "powerpyx"]
+  }
+,
   {
    "id": 41,
    "name": "A Classic Blitz Play",
    "description": "Rob an Armored Truck and escape.",
    "grade": "bronze",
    "hidden": false,
-   "kind": "crime",
    "missable": false,
+   "kind": "crime",
    "stage": "S6",
-   "target": 1,
-   "unit": "truck",
-   "step": 1,
-   "guide": "Rob an armored truck and escape. Armored trucks run set routes around Leonida, so wait for one on a quiet stretch, stop it, take the cash, and get away before the response arrives. A fast getaway car parked nearby turns a risky robbery into a clean one.",
+   "guide": "Rob an Armored Truck and escape. Armored trucks drive set routes around Leonida; ambush one, crack it open, take the cash, and escape before the police box you in. A sticky ambush spot with a fast getaway car makes it easy. One clean robbery and escape is all it takes.",
    "steps": [
     "Find an armored truck on its route.",
-    "Stop the truck and take the cash.",
-    "Escape before the response arrives.",
-    "The trophy pops on a successful escape."
+    "Stop it, crack it open, and take the cash.",
+    "Escape the police; the trophy pops on a clean getaway."
    ],
-   "sources": ["PowerPyx", "KeenGamer"]
+   "sources": ["powerpyx", "egamers"]
   },
   {
    "id": 42,
@@ -814,20 +715,17 @@
    "description": "Explore all of Leonida.",
    "grade": "bronze",
    "hidden": false,
-   "kind": "collectibles",
    "missable": false,
+   "kind": "collectibles",
    "stage": "S5",
-   "target": 52,
-   "unit": "areas",
-   "step": 1,
-   "guide": "Explore all of Leonida — all 52 areas. This is the map-completion trophy, and it rewards simply driving and walking everywhere. Use the in-game map to spot the areas you have not visited yet, and sweep them district by district. It pairs naturally with the WAiNK scans and vehicle discoveries, so do them on the same trips.",
+   "counter": {"target": 52, "unit": "areas", "label": "areas explored"},
+   "guide": "Explore all of Leonida — all 52 areas. The map fills in as you visit each area; the area list in Progress shows which are still missing. Drive, fly and boat across the whole state, including the small islands and the far corners. The last few areas are the ones players miss, so check the list before declaring it done.",
    "steps": [
-    "Open the map and note the areas you have not visited.",
-    "Drive and walk through each unvisited area.",
-    "Sweep district by district — 52 areas is the target.",
-    "The trophy pops when the last area is explored."
+    "Travel across Leonida and let the map fill in.",
+    "Check Progress for the areas still unvisited.",
+    "Visit the last areas; the trophy pops at 52 of 52."
    ],
-   "sources": ["PowerPyx", "KeenGamer"]
+   "sources": ["powerpyx", "planetgta6"]
   },
   {
    "id": 43,
@@ -835,20 +733,17 @@
    "description": "Rob an Illegal Operation belonging to each gang.",
    "grade": "bronze",
    "hidden": false,
-   "kind": "crime",
    "missable": false,
+   "kind": "crime",
    "stage": "S6",
-   "target": 9,
-   "unit": "gangs",
-   "step": 1,
-   "guide": "Rob an illegal operation belonging to each of the 9 gangs. Each gang runs its own operations, so you need one hit per gang — nine hits in total, one for each crew. KeenGamer reports 39 Gang Operations for the 100% checklist, so this trophy's 9 is the first pass; the checklist wants the full sweep afterwards.",
+   "counter": {"target": 9, "unit": "gangs", "label": "gangs hit"},
+   "guide": "Rob an Illegal Operation belonging to each gang — all 9 gangs. Each gang runs illegal operations around Leonida; hit one operation per gang. KeenGamer notes 100% completion needs 39 Gang Operations in total, so this trophy is one per gang while the checklist wants many more. Mark each gang off as you hit it.",
    "steps": [
-    "Find the illegal operations run by each of the 9 gangs.",
+    "Find an illegal operation for each of the 9 gangs.",
     "Rob one operation per gang.",
-    "Tick each gang off here as you hit it.",
-    "The trophy pops at 9 gangs."
+    "The trophy pops after the ninth gang."
    ],
-   "sources": ["KeenGamer", "PowerPyx"]
+   "sources": ["keengamer", "powerpyx"]
   },
   {
    "id": 44,
@@ -856,20 +751,16 @@
    "description": "Enjoy a cocktail with a view on Ocean Beach.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "odd",
    "missable": false,
+   "kind": "odd",
    "stage": "S7",
-   "target": 1,
-   "unit": "cocktail",
-   "step": 1,
-   "guide": "Enjoy a cocktail with a view on Ocean Beach. This is a quiet one-off moment — go to Ocean Beach, order a cocktail, and take in the view. PowerPyx lists its exact condition as still unconfirmed, so treat the description literally: a cocktail, with a view, on Ocean Beach. It is a good breather between the big grinds.",
+   "guide": "Enjoy a cocktail with a view on Ocean Beach. This is a quiet moment trophy: go to a bar or vendor on Ocean Beach, order a cocktail, and enjoy the view. No combat, no timer — just sit with the drink and the ocean. The ellipsis in the name is part of the official title.",
    "steps": [
     "Go to Ocean Beach.",
-    "Order a cocktail at a beach bar.",
-    "Enjoy it with the view.",
-    "The trophy pops on the moment."
+    "Order a cocktail at a beach bar or vendor.",
+    "Enjoy the view; the trophy pops as you drink."
    ],
-   "sources": ["PowerPyx", "GameMapa"]
+   "sources": ["powerpyx", "planetgta6"]
   },
   {
    "id": 45,
@@ -877,20 +768,16 @@
    "description": "Smash your way out of a vehicle showroom in classic style.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "odd",
    "missable": false,
+   "kind": "odd",
    "stage": "S7",
-   "target": 1,
-   "unit": "showroom",
-   "step": 1,
-   "guide": "Smash your way out of a vehicle showroom in classic style. Drive a car through the showroom glass and out the other side — the classic GTA exit. PowerPyx lists its exact condition as still unconfirmed, so treat the description literally: a vehicle showroom, smashed through, in style.",
+   "guide": "Smash your way out of a vehicle showroom in classic style. Drive into a vehicle showroom, then smash straight out through the glass in a car — the classic GTA showroom exit. Pick a showroom with a big glass front, build speed inside, and go through it. The trophy is about the exit, not the entry.",
    "steps": [
-    "Find a vehicle showroom.",
-    "Get in a car inside or drive one in.",
-    "Smash your way out through the glass.",
+    "Drive a car into a vehicle showroom.",
+    "Build speed and smash out through the glass front.",
     "The trophy pops on the exit."
    ],
-   "sources": ["PowerPyx", "GameMapa"]
+   "sources": ["powerpyx", "egamers"]
   },
   {
    "id": 46,
@@ -898,20 +785,16 @@
    "description": "Follow-through at the Kolt & Associates' bowling alley.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "odd",
    "missable": false,
+   "kind": "odd",
    "stage": "S7",
-   "target": 3,
-   "unit": "valuables",
-   "step": 1,
-   "guide": "Follow-through at the Kolt & Associates' bowling alley. PowerPyx reads this one as stealing three valuables there — no guide says you actually bowl a game, despite the name. Go to the bowling alley, take three valuables, and leave. The name is a joke; the act is a quiet lift.",
+   "guide": "Follow-through at the Kolt & Associates' bowling alley. Go bowling at that alley and complete a game — follow through on the throw, as the description says. Bowling is one of the 9 activity types, so it also counts toward Master of None. One full game is enough.",
    "steps": [
     "Go to the Kolt & Associates bowling alley.",
-    "Take three valuables from inside.",
-    "Leave with all three.",
-    "The trophy pops on the third valuable."
+    "Play a full game of bowling.",
+    "The trophy pops at the game's end."
    ],
-   "sources": ["PowerPyx", "GTASpotter"]
+   "sources": ["powerpyx", "planetgta6"]
   },
   {
    "id": 47,
@@ -919,19 +802,16 @@
    "description": "A partnership with mass appeal.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "odd",
    "missable": false,
+   "kind": "odd",
    "stage": "S7",
-   "target": 1,
-   "unit": "moment",
-   "step": 1,
-   "guide": "A partnership with mass appeal. This is one of the five hidden trophies whose exact condition is still unconfirmed — PowerPyx lists it as unknown, so the description is all we have. It is tied to a partnership moment with your partner, so play the partner content and watch for a moment that fits the name. Treat it as a cleanup trophy for the final sweep.",
+   "guide": "A partnership with mass appeal. This is a partner-activity trophy: do something with your partner that draws a crowd — a public moment together that the game counts as mass appeal. Play the partner activities and the trophy pops when the crowd moment lands. The cryptic description hides the exact trigger, so try the partner outings.",
    "steps": [
-    "Play the partner content with Lucia or Jason.",
-    "Watch for a partnership moment with mass appeal.",
-    "The trophy pops on the moment — check it in the final sweep (S7)."
+    "Do partner activities together in public spots.",
+    "Look for a moment that draws a crowd.",
+    "The trophy pops when the mass-appeal moment lands."
    ],
-   "sources": ["PowerPyx", "GameMapa"]
+   "sources": ["powerpyx", "egamers"]
   },
   {
    "id": 48,
@@ -939,19 +819,17 @@
    "description": "Choices made (for better or worse).",
    "grade": "bronze",
    "hidden": true,
-   "kind": "odd",
    "missable": false,
+   "kind": "odd",
    "stage": "S7",
-   "target": 500,
-   "unit": "choices",
-   "step": 10,
-   "guide": "Choices made, for better or worse — PlayStation tracks a count to 500. This is a long-tail counter that builds as you play: every choice you make in missions, dialogue and the open world adds up. You do not need to chase it deliberately; it accrues across a full playthrough. Keep playing and check the count here from time to time.",
+   "counter": {"target": 500, "unit": "choices", "label": "choices made"},
+   "guide": "Choices made (for better or worse). PlayStation tracks a count to 500 for this trophy — every meaningful choice you make in dialogue and missions adds to it. There is no single trigger; it accumulates across the whole game as you pick options. Play naturally, make choices whenever offered, and it pops by the end of a full playthrough.",
    "steps": [
-    "Just play — choices in missions, dialogue and the open world all count.",
-    "Check the count here from time to time.",
-    "Reach 500 choices for the trophy."
+    "Make choices whenever the game offers them — dialogue and mission options.",
+    "The count climbs toward 500 across the playthrough.",
+    "The trophy pops at 500 choices."
    ],
-   "sources": ["PowerPyx", "KeenGamer"]
+   "sources": ["powerpyx", "planetgta6"]
   },
   {
    "id": 49,
@@ -959,19 +837,16 @@
    "description": "Second time's the charm.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "odd",
    "missable": false,
+   "kind": "odd",
    "stage": "S7",
-   "target": 1,
-   "unit": "retry",
-   "step": 1,
-   "guide": "Second time's the charm. This is one of the five hidden trophies whose exact condition is still unconfirmed — PowerPyx lists it as unknown. The name suggests succeeding on a second attempt at something you failed once, so if you fail a challenge or activity, retry it at once rather than moving on. Treat it as a cleanup trophy for the final sweep.",
+   "guide": "Second time's the charm. This trophy pops when you succeed at something on your second try after failing the first. Fail an attempt at an activity or challenge, then succeed immediately on the retry. The simplest route is a short activity you can fail and retry quickly.",
    "steps": [
-    "If you fail a challenge or activity, retry it immediately.",
-    "Succeed on the second attempt.",
-    "The trophy pops on the retry — check it in the final sweep (S7)."
+    "Pick a short activity or challenge.",
+    "Fail the first attempt, then succeed on the immediate retry.",
+    "The trophy pops on the second-try success."
    ],
-   "sources": ["PowerPyx", "GameMapa"]
+   "sources": ["powerpyx", "egamers"]
   },
   {
    "id": 50,
@@ -979,19 +854,16 @@
    "description": "What the hell just happened?",
    "grade": "bronze",
    "hidden": true,
-   "kind": "odd",
    "missable": false,
+   "kind": "odd",
    "stage": "S7",
-   "target": 1,
-   "unit": "sighting",
-   "step": 1,
-   "guide": "What the hell just happened? This is one of the five hidden trophies whose exact condition is still unconfirmed — PowerPyx lists it as unknown. The name points at something strange in the world, so keep your eyes open while exploring Leonida for an odd sight or event. Treat it as a cleanup trophy for the final sweep.",
+   "guide": "What the hell just happened? This is the strange-encounter trophy — witness something weird in the world, the kind of odd event Leonida hides in its corners. Explore off the beaten path, especially at night and in remote spots, and the trophy pops when you stumble on the strange event.",
    "steps": [
-    "Explore Leonida and watch for something strange.",
-    "Witness the odd event or sighting.",
-    "The trophy pops on the sighting — check it in the final sweep (S7)."
+    "Explore remote and odd corners of Leonida, especially at night.",
+    "Look for strange events and encounters.",
+    "The trophy pops when you witness one."
    ],
-   "sources": ["PowerPyx", "GameMapa"]
+   "sources": ["powerpyx", "planetgta6"]
   },
   {
    "id": 51,
@@ -999,19 +871,16 @@
    "description": "Bowl 'em over with a melee drive-by.",
    "grade": "bronze",
    "hidden": true,
-   "kind": "odd",
    "missable": false,
+   "kind": "odd",
    "stage": "S7",
-   "target": 1,
-   "unit": "drive-by",
-   "step": 1,
-   "guide": "Bowl 'em over with a melee drive-by. Knock someone down with a melee attack from a moving vehicle — a drive-by with a melee weapon instead of a gun. It is a specific stunt, so set it up deliberately: get a vehicle moving, get close, and land the melee hit. PowerPyx lists its exact condition as still unconfirmed, so treat the description literally.",
+   "guide": "Bowl 'em over with a melee drive-by. A melee drive-by is attacking from a moving vehicle with a melee weapon — the bowling pun is the joke. Drive past a target and land a melee hit from the vehicle. A slow pass through a crowded sidewalk makes it easy to connect.",
    "steps": [
-    "Get a vehicle moving near a target.",
-    "Land a melee hit from the moving vehicle.",
-    "The trophy pops on the melee drive-by."
+    "Get in a vehicle with a melee weapon ready.",
+    "Drive past a target and land a melee hit from the moving vehicle.",
+    "The trophy pops on the hit."
    ],
-   "sources": ["PowerPyx", "KeenGamer"]
+   "sources": ["powerpyx", "egamers"]
   },
   {
    "id": 52,
@@ -1019,20 +888,17 @@
    "description": "Earn $250,000 laundering Marked Bills through your contacts.",
    "grade": "bronze",
    "hidden": false,
-   "kind": "crime",
    "missable": false,
+   "kind": "crime",
    "stage": "S6",
-   "target": 250000,
-   "unit": "$",
-   "step": 25000,
-   "guide": "Launder $250,000 in Marked Bills through your contacts. Marked Bills come from robberies, so this trophy grows as you do the crime trophies — rob, collect the bills, and launder them through your contacts. The counter here moves in $25,000 steps, so ten taps is the full $250,000. It pairs naturally with the bank vaults and gang operations.",
+   "counter": {"target": 250000, "unit": "dollars", "label": "dollars laundered"},
+   "guide": "Earn $250,000 laundering Marked Bills through your contacts. Marked Bills come from robberies; take them to your contacts to launder them into clean cash. The total is cumulative — every laundered dollar counts toward the $250,000. Rob often, launder often, and the trophy pops as the total crosses the line.",
    "steps": [
-    "Rob banks, trucks and operations to collect Marked Bills.",
-    "Launder the bills through your contacts.",
-    "Track the total here in $25,000 steps.",
-    "The trophy pops at $250,000 laundered."
+    "Collect Marked Bills from robberies.",
+    "Launder them through your contacts.",
+    "The trophy pops at $250,000 laundered in total."
    ],
-   "sources": ["PowerPyx", "KeenGamer"]
+   "sources": ["powerpyx", "keengamer"]
   },
   {
    "id": 53,
@@ -1040,20 +906,17 @@
    "description": "Spend $100,000 across all shops.",
    "grade": "bronze",
    "hidden": false,
-   "kind": "crime",
    "missable": false,
+   "kind": "crime",
    "stage": "S6",
-   "target": 100000,
-   "unit": "$",
-   "step": 10000,
-   "guide": "Spend $100,000 across all shops. This is the spending side of the money trophies — buy weapons, clothes, vehicles and upgrades until the total hits $100,000. It pairs with the laundering trophy: earn dirty money, clean it, then spend it. The counter here moves in $10,000 steps, so ten taps is the full $100,000.",
+   "counter": {"target": 100000, "unit": "dollars", "label": "dollars spent"},
+   "guide": "Spend $100,000 across all shops. The total is cumulative across every shop in Leonida — clothes, weapons, cars, food, anything. It adds up fast once you start buying cars and weapons, so do not grind it specially; just play and buy what you need, and check the running total in the stats.",
    "steps": [
-    "Buy weapons, clothes, vehicles and upgrades in shops.",
-    "Track the total here in $10,000 steps.",
-    "Reach $100,000 spent across all shops.",
-    "The trophy pops at $100,000."
+    "Buy gear, clothes, cars and weapons across Leonida's shops.",
+    "The total is cumulative across all shops.",
+    "The trophy pops at $100,000 spent."
    ],
-   "sources": ["PowerPyx", "KeenGamer"]
+   "sources": ["powerpyx", "egamers"]
   },
   {
    "id": 54,
@@ -1061,20 +924,17 @@
    "description": "Purchase all garage properties.",
    "grade": "bronze",
    "hidden": false,
-   "kind": "collectibles",
    "missable": false,
+   "kind": "collectibles",
    "stage": "S5",
-   "target": 8,
-   "unit": "garages",
-   "step": 1,
-   "guide": "Purchase all 8 garage properties. Garages are bought around Leonida and give you somewhere to store the vehicles you discover for Whip It Good and register for On the Spot. Buy them as you can afford them — the money from robberies and laundering covers the cost, so this trophy follows naturally from the crime set.",
+   "counter": {"target": 8, "unit": "garages", "label": "garages purchased"},
+   "guide": "Purchase all garage properties — all 8 of them. Garages are bought through the property listings; each one costs money, so save up or earn it through robberies and races. Owning all 8 also gives you storage across Leonida, which helps the vehicle-collecting trophies.",
    "steps": [
-    "Find the 8 garage properties for sale around Leonida.",
-    "Buy each one as you can afford it.",
-    "Tick each garage off here.",
-    "The trophy pops at 8 garages."
+    "Save up money through robberies, races and missions.",
+    "Buy each of the 8 garage properties.",
+    "The trophy pops after the eighth purchase."
    ],
-   "sources": ["PowerPyx", "KeenGamer"]
+   "sources": ["powerpyx", "planetgta6"]
   },
   {
    "id": 55,
@@ -1082,20 +942,17 @@
    "description": "Register 10 vehicles to the Scooter Bros app.",
    "grade": "bronze",
    "hidden": false,
-   "kind": "collectibles",
    "missable": false,
+   "kind": "collectibles",
    "stage": "S5",
-   "target": 10,
-   "unit": "vehicles",
-   "step": 1,
-   "guide": "Register 10 vehicles to the Scooter Bros app. This is the companion to discovering vehicles — once you find a vehicle you like, register it in the app so it is yours to call on. Ten registrations is the target, and it pairs with the 100 discovered for Whip It Good and the 8 garages for Little Boxes.",
+   "counter": {"target": 10, "unit": "vehicles", "label": "vehicles registered"},
+   "guide": "Register 10 vehicles to the Scooter Bros app. The Scooter Bros app lets you register vehicles you find; open it near a vehicle and register it. Any 10 vehicles count — the cheap and common ones are fine. Register as you discover new models and it pairs naturally with Whip It Good.",
    "steps": [
-    "Find vehicles around Leonida.",
-    "Register each one in the Scooter Bros app.",
-    "Tick each registration off here.",
-    "The trophy pops at 10 registered vehicles."
+    "Open the Scooter Bros app near a vehicle.",
+    "Register the vehicle to the app.",
+    "Register 10 vehicles; the trophy pops after the tenth."
    ],
-   "sources": ["PowerPyx", "KeenGamer"]
+   "sources": ["powerpyx", "keengamer"]
   }
  ]
 }
